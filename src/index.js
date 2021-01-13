@@ -1,17 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import Card from './card';
+import fetch from 'node-fetch';
+var data;
+async function getData() {
+  const url = 'https://cplistapi.herokuapp.com/';
+  const response = await fetch(url);
+  data = await response.json();
+}
+getData().then(() => {
+  const upcoming = data.results.upcoming;
+  const ongoing = data.results.ongoing;
+  ReactDOM.render(
+    <>
+      <div className="container">
+        <div className="row">
+          {upcoming.map((uData) => {
+            return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
+              endTime={uData.endTime} url={uData.url} />)
+          })}
+          {ongoing.map((uData) => {
+            return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
+              endTime={uData.endTime} url={uData.url} />)
+          })}
+        </div>
+      </div>
+    </>,
+    document.getElementById('root')
+  );
+});
