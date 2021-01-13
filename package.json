@@ -1,7 +1,7 @@
 {
   "name": "cptime",
   "version": "0.1.0",
-  "homepage": "http://yuribenjamin.github.io/cptime",
+  "homepage": "http://eswar2001.github.io/cptime",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
