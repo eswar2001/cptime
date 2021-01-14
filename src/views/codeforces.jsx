@@ -4,20 +4,47 @@ import Card from "../card";
 
 function Codeforces(params) {
 
-    return (<>
-        <div className="container">
-            <h1>Ongoing Contests</h1>
-            <div className="row"> {ocodeforces.map((uData) => {
-                return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
-                    endTime={uData.endTime} url={uData.url} />)
-            })}</div>
-            <h1>upcoming Contests</h1>
-            <div className="row">{ucodeforces.map((uData) => {
-                return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
-                    endTime={uData.endTime} url={uData.url} />)
-            })}</div>
-        </div>
-    </>);
+    if (ocodeforces.length !== 0 && ucodeforces.length !== 0) {
+        return (<>
+            <div className="container" >
+                <h1>Ongoing Contests</h1>
+                <div className="card-group"> {ocodeforces.map((uData) => {
+                    return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
+                        endTime={uData.endTime} url={uData.url} />)
+                })}</div>
+            </div>
+            <div className="container" >
+                <h1>upcoming Contests</h1>
+                <div className="card-group">{ucodeforces.map((uData) => {
+                    return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
+                        endTime={uData.endTime} url={uData.url} />)
+                })}</div>
+            </div>
+        </>);
+    }
+    else if (ocodeforces.length !== 0) {
+        return (<>
+            <div className="container" >
+                <h1>Ongoing Contests</h1>
+                <div className="card-group"> {ocodeforces.map((uData) => {
+                    return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
+                        endTime={uData.endTime} url={uData.url} />)
+                })}</div>
+            </div>
+        </>);
+    } else if(ucodeforces.length!==0){
+        return (<>
+            <div className="container" >
+                <h1>upcoming Contests</h1>
+                <div className="card-group">{ucodeforces.map((uData) => {
+                    return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
+                        endTime={uData.endTime} url={uData.url} />)
+                })}</div>
+            </div>
+        </>);
+    } else {
+        return (<p>No contests at the instant</p>)
+    }
 }
 
 export default Codeforces

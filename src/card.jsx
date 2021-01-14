@@ -9,10 +9,10 @@ function Card(props) {
     var filter;
     var diff;
     if (props.status) {
-        filter = `ongoing col-12 col-sm-8 col-md-6 col-lg-4`;
+        filter = `ongoing  col-sm-auto col-md-6 col-lg-4`;
         diff = "card mb-3 border-danger"
     } else {
-        filter = `upcoming col-12 col-sm-8 col-md-6 col-lg-4`;
+        filter = `upcoming  col-sm-auto col-md-6 col-lg-4`;
         diff = "card mb-3 border-primary"
     }
     var cardStyle = {
@@ -28,10 +28,10 @@ function Card(props) {
                 <span className="card-header" style={cardHeaderStyle}> {props.platform} </span>
                 <div className="card-body">
                     <h3 className="card-title"> {props.name} </h3>
-                    <p className="card-text">Start Time:{startdateString}</p>
-                    <p className="card-text">End Time:{enddateString}</p>
+                    <p className="card-text">Start Time: {startdateString}</p>
+                    <p className="card-text">End Time: {enddateString}</p>
                     <a href={props.url} className="card-link " target="_blank" rel="noreferrer">
-                        <button className="btn btn-primary">Register Now</button>
+                        <button className="btn">Register Now</button>
                     </a>
                 </div>
             </div>
