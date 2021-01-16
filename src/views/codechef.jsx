@@ -1,5 +1,7 @@
-import { ocodechef, ucodechef } from "../index";
+import { ocodechef, ucodechef } from "../server/server";
 import React from 'react';
+
+import { Redirect } from 'react-router';
 import Card from "../card";
 
 function Codechef(params) {
@@ -42,7 +44,7 @@ function Codechef(params) {
             </div>
         </>);
     } else {
-        return (<p>No contests at the instant</p>)
+        return (<Redirect to='/' />)
     }
 }
 

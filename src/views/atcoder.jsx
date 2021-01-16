@@ -1,9 +1,9 @@
-import { oatcoder, uatcoder } from "../index";
+import { oatcoder, uatcoder } from "../server/server";
+import { Redirect } from 'react-router';
 import React from 'react';
 import Card from "../card";
 
 const Atcoder = () => {
-
     if (oatcoder.length !== 0 && uatcoder.length !== 0) {
         return (<>
             <div className="container" >
@@ -43,7 +43,7 @@ const Atcoder = () => {
             </div>
         </>);
     } else {
-        return (<p>No contests at the instant</p>)
+        return (<Redirect to='/' />)
     }
 }
 export default Atcoder;

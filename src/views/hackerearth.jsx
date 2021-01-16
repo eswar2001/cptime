@@ -1,5 +1,7 @@
-import { ohackerearth, uhackerearth } from "../index";
+import { ohackerearth, uhackerearth } from "../server/server";
 import React from 'react';
+
+import { Redirect } from 'react-router';
 import Card from "../card";
 
 function Hackerearth(params) {
@@ -43,7 +45,7 @@ function Hackerearth(params) {
             </div>
         </>);
     } else {
-        return (<p>No contests at the instant</p>)
+        return (<Redirect to='/' />)
     }
 }
 

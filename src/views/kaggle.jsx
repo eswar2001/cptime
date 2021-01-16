@@ -1,6 +1,8 @@
-import { okaggle, ukaggle } from "../index";
+import { okaggle, ukaggle } from "../server/server";
 import React from 'react';
 import Card from "../card";
+
+import { Redirect } from 'react-router';
 
 function Kaggle(params) {
 
@@ -43,7 +45,7 @@ function Kaggle(params) {
             </div>
         </>);
     } else {
-        return (<p>No contests at the instant</p>)
+        return (<Redirect to='/' />)
     }
 }
 

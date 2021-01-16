@@ -1,5 +1,7 @@
-import { ocodeforces, ucodeforces } from "../index";
+import { ocodeforces, ucodeforces } from "../server/server";
 import React from 'react';
+
+import { Redirect } from 'react-router';
 import Card from "../card";
 
 function Codeforces(params) {
@@ -43,7 +45,7 @@ function Codeforces(params) {
             </div>
         </>);
     } else {
-        return (<p>No contests at the instant</p>)
+        return (<Redirect to='/' />)
     }
 }
 

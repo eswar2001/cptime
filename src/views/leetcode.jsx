@@ -1,6 +1,8 @@
-import { oleetcode, uleetcode } from "../index";
+import { oleetcode, uleetcode } from "../server/server";
 import React from 'react';
 import Card from "../card";
+
+import { Redirect } from 'react-router';
 
 function Leetcode() {
 
@@ -32,7 +34,7 @@ function Leetcode() {
                 })}</div>
             </div>
         </>);
-    } else if(uleetcode.length!==0) {
+    } else if (uleetcode.length !== 0) {
         return (<>
             <div className="container" >
                 <h1>upcoming Contests</h1>
@@ -43,7 +45,7 @@ function Leetcode() {
             </div>
         </>);
     } else {
-        return (<p>No contests at the instant</p>)
+        return (<Redirect to='/' />)
     }
 }
 
