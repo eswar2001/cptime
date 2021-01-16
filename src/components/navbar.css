@@ -1,10 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
-* {
-  font-family: "Titillium Web", sans-serif;
-}
 .navbar .navbar-brand {
-  font-size: 30px;
-  color: #66f;
 }
 .navbar .nav-item {
   padding: 10px 20px;
@@ -16,4 +10,9 @@
 .fa-bars {
   color: #66f;
   font-size: 30px;
+}
+
+nav {
+  position: fixed;
+  /* overflow-y: scroll !important; */
 }

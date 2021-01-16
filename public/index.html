@@ -64,16 +64,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script>
-      $(".prod-logo").hover(
-        function () {
-          $(".inner").addClass("inner-hover");
-          $(".nav-li").slideDown(500);
-        },
-        function () {
-          $(".inner").removeClass("inner-hover");
-          $(".nav-li").slideUp(500);
+      $(document).ready(function () {
+        // Navbar collapse on scroll below 100px
+        changeNavbar();
+
+        $(window).scroll(function () {
+          changeNavbar();
+        });
+
+        function changeNavbar() {
+          var navbar = $("#navbarSupportedContent");
+          if ($(this).scrollTop() >= 100) {
+            navbar.removeClass("show");
+          } else if ($(this).scrollTop() < 100) {
+            navbar.addClass("");
+          }
         }
-      );
+      });
     </script>
   </body>
 </html>
