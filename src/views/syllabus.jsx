@@ -10,7 +10,7 @@ export const Syllabus = () => {
             <li>Graham Scan algorithm for Convex Hull O(n * log(n))</li>
             <li>Online construction of 3-D convex hull in O(n^2)</li>
             <li>Bentley Ottmann algorithm to list all intersection points of n line segments in O((n + I) * logn)<ul>
-                <li>Suggested Reading - <a href="http://softsurfer.com/Archive/algorithm_0108/algorithm_0108.htm">http://softsurfer.com/Archive/algorithm_0108/algorithm_0108.htm</a></li>
+                <li>Suggested Reading - <a href="http://softsurfer.com/Archive/algorithm_0108/algorithm_0108.htm">Link</a></li>
             </ul>
             </li>
             <li>Rotating Calipers Technique<ul>
@@ -21,7 +21,7 @@ export const Syllabus = () => {
             <li>Line Sweep/Plane Sweep algorithms</li>
             <li>Area/Perimeter of Union of Rectangles.</li>
             <li>Closest pair of points.<ul>
-                <li>Suggested Reading - <a href="http://www.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=lineSweep">http://www.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=lineSweep</a></li>
+                <li>Suggested Reading - <a href="http://www.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=lineSweep">Link</a></li>
                 <li>Problems - Follow the tutorial for list of problems.</li>
             </ul>
             </li>
@@ -47,7 +47,7 @@ export const Syllabus = () => {
         <ul>
             <li>KnuthMorrisPratt algorithm (Problems - NHAY, PERIOD on SPOJ)</li>
             <li>Suggested Reading - Cormen chapter on Strings.</li>
-            <li><a href="http://www.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=stringSearching">http://www.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=stringSearching</a></li>
+            <li><a href="http://www.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=stringSearching">topcoder Link</a></li>
             <li>Aho Corasick algorithm</li>
             <li>Problems - WPUZZLES on SPOJ</li>
         </ul>
@@ -75,7 +75,7 @@ Runtime -&gt; O(n).</li>
         <h3 id="multi-dimensional-pattern-matching">Multi-dimensional pattern matching</h3>
         <ul>
             <li>DISUBSTR, PLD, MSTRING, REPEATS, JEWELS, ARCHIVER, PROPKEY, LITELANG, EMOTICON, WORDS, AMCODES, UCODES, PT07H, MINSEQ, TOPALIN, BWHEELER, BEADS, SARRAY, LCS, LCS2, SUBST1, PHRASES, PRETILE on SPOJ</li>
-            <li><a href="http://www.algorithmist.com/index.php/Category:String_algorithms">http://www.algorithmist.com/index.php/Category:String_algorithms</a></li>
+            <li><a href="http://www.algorithmist.com/index.php/Category:String_algorithms">algorithmist Link</a></li>
         </ul>
         <h2 id="graphs">Graphs</h2>
         <h3 id="basic-graphs">Basic Graphs</h3>
@@ -93,7 +93,7 @@ Runtime -&gt; O(n).</li>
             <li>Bellman-Ford algorithm.</li>
             <li>Euler Tour/Path (WORDS1 on SPOJ)</li>
             <li>Suggested reading for most of the topics in Graph algorithms -
-<a href="http://www.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=graphsDataStrucs1">http://www.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=graphsDataStrucs1</a>.</li>
+<a href="http://www.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=graphsDataStrucs1">topcoder Link</a>.</li>
             <li>Also refer to the tutorial for problems concerning these techniques.</li>
             <li>Cormen chapter 22 to 24.</li>
         </ul>
@@ -137,7 +137,7 @@ Runtime -&gt; O(n).</li>
             <li>State space reduction<ul>
                 <li><a href="http://www.topcoder.com/stat?c=problem_statement&amp;pm=10902">http://www.topcoder.com/stat?c=problem_statement&amp;pm=10902</a></li>
                 <li><a href="http://www.topcoder.com/stat?c=problem_statement&amp;pm=3001">http://www.topcoder.com/stat?c=problem_statement&amp;pm=3001</a></li>
-                <li><a href="http://www.topcoder.com/stat?c=problem_statement&amp;pm=8605&amp;rd=12012&amp;rm=269199&amp;cr=7581406">http://www.topcoder.com/stat?c=problem_statement&amp;pm=8605&amp;rd=12012&amp;rm=269199&amp;cr=7581406</a></li>
+                <li><a href="http://www.topcoder.com/stat?c=problem_statement&amp;pm=8605&amp;rd=12012&amp;rm=269199&amp;cr=7581406">topcoder Link</a></li>
             </ul>
             </li>
             <li>Solving in the reverse - easier characterizations looking from the end<ul>
