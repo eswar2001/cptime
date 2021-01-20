@@ -212,20 +212,20 @@ export const ScalableSoftwareArc = () => {
             <li><a target="_blank" rel="noreferrer" href="https://pdos.csail.mit.edu/papers/">MIT PDOS</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://dancres.github.io/Pages/">Distributed Systems Reading List</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://research.microsoft.com/en-us/um/people/blampson/33-Hints/Acrobat.pdf">Hints for Computer System Design</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://people.mpi-inf.mpg.de/~jblanche/api-design.pdf" target="_blank">The Little Manual of API Design</a></li>
+            <li><a target="_blank" rel="noreferrer" href="http://people.mpi-inf.mpg.de/~jblanche/api-design.pdf" >The Little Manual of API Design</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.usenix.org/event/lisa07/tech/full_papers/hamilton/hamilton.pdf">On Designing and Deploying Internet-Scale Services</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://research.microsoft.com/en-us/um/people/lamport/pubs/time-clocks.pdf">Time, Clocks, and the Ordering of Events in a Distributed System</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf">Above the Clouds: A Berkeley View of Cloud Computing</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://www.andrew.cmu.edu/course/15-749/READINGS/required/resilience/lamport82.pdf">The Byzantine Generals Problem</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/32713.pdf">How to Design a Good API and Why it Matters - Google Research</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://www.umiacs.umd.edu/~jimmylin/publications/Leibert_etal_SoCC2011.pdf" target="_blank">Twitter - Automatic Management of Partitioned, Replicated Search Services</a></li>
+            <li><a target="_blank" rel="noreferrer" href="http://www.umiacs.umd.edu/~jimmylin/publications/Leibert_etal_SoCC2011.pdf">Twitter - Automatic Management of Partitioned, Replicated Search Services</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf">High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://www.erlang.org/download/armstrong_thesis_2003.pdf">Making Reliable Distributed Systems in the Presence of Software Errors</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://www.rgoarchitects.com/Files/fallacies.pdf">Fallacies of Distributed Computing Explained</a></li>
         </ul>
         <h4 id="search">Search</h4>
         <ul>
-            <li><a target="_blank" rel="noreferrer" href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/334.pdf">The Anatomy of a Large-Scale Hypertextual Web Search Engine (Google Paper)</a>  (<a target="_blank" rel="noreferrer" href="http://infolab.stanford.edu/~backrub/google.html" target="_blank">Weblink</a>)</li>
+            <li><a rel="noreferrer" href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/334.pdf">The Anatomy of a Large-Scale Hypertextual Web Search Engine (Google Paper)</a>  (<a rel="noreferrer" href="http://infolab.stanford.edu/~backrub/google.html" target="_blank">Weblink</a>)</li>
             <li><a target="_blank" rel="noreferrer" href="http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf">The PageRank Citation Ranking: Bringing Order to the Web</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://research.google.com/archive/googlecluster-ieee.pdf">Web Search for a Planet: The Google Cluster Architecture</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://db.disi.unitn.eu/pages/VLDBProgram/pdf/industry/p871-curtiss.pdf">Unicorn: A System for Searching the Social Graph</a>  (<a target="_blank" rel="noreferrer" href="https://research.facebook.com/publications/unicorn-a-system-for-searching-the-social-graph/">FB link</a>)</li>
@@ -235,7 +235,7 @@ export const ScalableSoftwareArc = () => {
             <li><a target="_blank" rel="noreferrer" href="https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf">Chord: A scalable peer-to-peer lookup service for Internet applications</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://pdos.csail.mit.edu/papers/chord:hotos01/hotos8.pdf">Building peer-to-peer systems with Chord, a distributed lookup service</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.akamai.com/us/en/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf">Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web</a>  (<a target="_blank" rel="noreferrer" href="http://web.stanford.edu/class/cs168/l/l1.pdf">CS 168: Consistent Hashing</a>  | <a target="_blank" rel="noreferrer" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2015/July/0000000-0000009.pdf">Algorithmic Nuggets in Content Delivery</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="http://www.cs.columbia.edu/~asherman/papers/cachePaper.pdf" target="_blank">Web Caching with Consistent Hashing</a> (<a target="_blank" rel="noreferrer" href="http://www8.org/w8-papers/2a-webserver/caching/paper2.html">Web link</a>)</li>
+            <li><a rel="noreferrer" href="http://www.cs.columbia.edu/~asherman/papers/cachePaper.pdf" target="_blank">Web Caching with Consistent Hashing</a> (<a target="_blank" rel="noreferrer" href="http://www8.org/w8-papers/2a-webserver/caching/paper2.html">Web link</a>)</li>
             <li><a target="_blank" rel="noreferrer" href="https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/pastry-scalable-decentralized-object-location-and-routing-for-large-scale-peer-to-peer-systems.pdf">Pastry: Scalable, decentralized object location and routing for large-scale peer-to-peer systems</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33339.pdf">Simple Efficient Load Balancing Algorithms for Peer-to-Peer Systems</a></li>
         </ul>
@@ -251,10 +251,10 @@ export const ScalableSoftwareArc = () => {
             <li><a target="_blank" rel="noreferrer" href="http://research.google.com/archive/gfs-sosp2003.pdf">The Google File System</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://research.google.com/archive/bigtable-osdi06.pdf">Bigtable: A Distributed Storage System for Structured Data</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf">Spanner: Google&#39;s Globally-Distributed Database - Google Research</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://cs.uwaterloo.ca/~brecht/courses/854-Emerging-2014/readings/data-store/tao-facebook-distributed-datastore-atc-2013.pdf" target="_blank">TAO: Facebook’s Distributed Data Store for the Social Graph</a></li>
+            <li><a rel="noreferrer" href="https://cs.uwaterloo.ca/~brecht/courses/854-Emerging-2014/readings/data-store/tao-facebook-distributed-datastore-atc-2013.pdf" target="_blank">TAO: Facebook’s Distributed Data Store for the Social Graph</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41344.pdf">F1: A Distributed SQL Database That Scales</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://db.disi.unitn.eu/pages/VLDBProgram/pdf/industry/p767-wiener.pdf">Scuba: Diving into Data at Facebook</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://www-bcf.usc.edu/~wyattllo/papers/f4-osdi14.pdf" target="_blank">f4: Facebook’s Warm BLOB Storage System</a></li>
+            <li><a rel="noreferrer" href="http://www-bcf.usc.edu/~wyattllo/papers/f4-osdi14.pdf" target="_blank">f4: Facebook’s Warm BLOB Storage System</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Beaver.pdf">Finding a needle in Haystack: Facebook’s photo storage</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf">Cassandra - A Decentralized Structured Storage System</a></li>
         </ul>
@@ -285,7 +285,7 @@ export const ScalableSoftwareArc = () => {
         <h4 id="misc">Misc</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="http://research.google.com/pubs/archive/35605.pdf">Differential Synchronization</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.cis.upenn.edu/~bcpierce/courses/dd/papers/lbfs.pdf" target="_blank">A Low-bandwidth Network File System</a></li>
+            <li><a rel="noreferrer" href="https://www.cis.upenn.edu/~bcpierce/courses/dd/papers/lbfs.pdf" target="_blank">A Low-bandwidth Network File System</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://research.google.com/pubs/archive/44824.pdf">Maglev: A Fast and Reliable Software Network Load Balancer</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://research.google.com/archive/chubby-osdi06.pdf">The Chubby Lock Service for Loosely-Coupled Distributed Systems</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://sigops.org/sosp/sosp13/papers/p33-david.pdf">Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask</a></li>
