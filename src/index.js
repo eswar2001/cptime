@@ -14,6 +14,7 @@ import { CuratedList } from "./views/curatedList";
 import { PcardList, Plistview } from "./components/Pcard";
 import { Syllabus } from "./views/syllabus";
 import { Footer } from './components/footer';
+import { Videoresources } from "./views/videoResources";
 getData()
 
 const Home = () => {
@@ -78,6 +79,9 @@ ReactDOM.render(
         </Route>
         <Route path='/syllabus'>
           <Syllabus />
+        </Route>
+        <Route path='/video'>
+          <Videoresources />
         </Route>
         <Route path="/">
           <Home />
