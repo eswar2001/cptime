@@ -2,7 +2,7 @@ import { ocodeforces, ucodeforces } from "../server/server";
 import React from 'react';
 
 import { Redirect } from 'react-router';
-import Card from "../card";
+import Card from "../components/card";
 
 function Codeforces(params) {
 

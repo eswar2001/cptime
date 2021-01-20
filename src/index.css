@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
 }
-
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -11,7 +10,13 @@ html {
   width: 100%;
   background-color: #000;
 }
-
+#content {
+  margin: auto;
+  text-align: center;
+}
+.lottie-player {
+  margin: auto;
+}
 h1 {
   color: #fff;
   font-weight: 500;

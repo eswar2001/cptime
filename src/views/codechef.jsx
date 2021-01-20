@@ -2,7 +2,7 @@ import { ocodechef, ucodechef } from "../server/server";
 import React from 'react';
 
 import { Redirect } from 'react-router';
-import Card from "../card";
+import Card from "../components/card";
 
 function Codechef(params) {
     if (ocodechef.length !== 0 && ucodechef.length !== 0) {

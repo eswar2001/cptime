@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import backimg from "./resources/background.jpg";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Atcoder from "./views/atcoder";
 import Codechef from "./views/codechef";
@@ -11,12 +10,41 @@ import Leetcode from "./views/leetcode";
 import Kaggle from "./views/kaggle";
 import { Navbar } from "./components/navbar";
 import { getData } from "./server/server";
+import { CuratedList } from "./views/curatedList";
+import { PcardList, Plistview } from "./components/Pcard";
 getData()
+
+const Home = () => {
+  return (
+    <>
+      <div className="container" style={{ paddingTop: "15%" }}>
+        <div className="row">
+          <div className="col-md-4 col-sm-auto"></div>
+          <div className="col-4">
+            <lottie-player src=" https://assets3.lottiefiles.com/packages/lf20_23wxziun.json" background="transparent" speed="1" style={{ paddingLeft: "14%", width: "300px", height: "300px" }} loop autoplay></lottie-player>
+          </div>
+          <div className="col-md-4 col-sm-0"></div>
+        </div>
+        <div className="row">
+          <div className="col-md-2  col-sm-0"></div>
+          <div className="col" style={{ textAlign: "center" }}>
+            <h1>CpTime</h1>
+            <h3>A place where you find everything</h3>
+          </div>
+          <div className="col-md-2  col-sm-0"></div>
+        </div>
+      </div>
+    </>
+  )
+}
 ReactDOM.render(
   <>
     <Router>
       <Navbar />
       <Switch>
+        <Route path="/curatesList">
+          <CuratedList />
+        </Route>
         <Route path="/Atcoder">
           <Atcoder />
         </Route>
@@ -35,6 +63,12 @@ ReactDOM.render(
         <Route path="/Kaggle">
           <Kaggle />
         </Route>
+        <Route path="/Plistview">
+          <Plistview />
+        </Route>
+        <Route path='/crackDSA'>
+          <PcardList />
+        </Route>
         <Route path="/">
           <Home />
         </Route>
@@ -43,12 +77,3 @@ ReactDOM.render(
   </>,
   document.getElementById("root")
 );
-function Home() {
-  return (
-    <>
-      <div className="container" style={{ zIndex: 1 }}>
-        <img className="img-fluid" style={{ zIndex: -1 }} src={backimg} alt="..." />
-      </div>
-    </>
-  );
-}

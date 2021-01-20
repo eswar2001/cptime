@@ -41,6 +41,7 @@
         color: #66f;
       }
     </style>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -55,32 +56,12 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
       -->
-
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        // Navbar collapse on scroll below 100px
-        changeNavbar();
-
-        $(window).scroll(function () {
-          changeNavbar();
-        });
-
-        function changeNavbar() {
-          var navbar = $("#navbarSupportedContent");
-          if ($(this).scrollTop() >= 100) {
-            navbar.removeClass("show");
-          } else if ($(this).scrollTop() < 100) {
-            navbar.addClass("");
-          }
-        }
-      });
-    </script>
   </body>
 </html>

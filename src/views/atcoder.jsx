@@ -1,7 +1,7 @@
 import { oatcoder, uatcoder } from "../server/server";
 import { Redirect } from 'react-router';
 import React from 'react';
-import Card from "../card";
+import Card from "../components/card";
 
 const Atcoder = () => {
     if (oatcoder.length !== 0 && uatcoder.length !== 0) {

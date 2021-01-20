@@ -1,6 +1,6 @@
 import { oleetcode, uleetcode } from "../server/server";
 import React from 'react';
-import Card from "../card";
+import Card from "../components/card";
 
 import { Redirect } from 'react-router';
 
