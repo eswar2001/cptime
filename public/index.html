@@ -25,11 +25,10 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>cptime</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -37,18 +36,16 @@
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
     />
 
     <style>
       html {
         --scrollbarBG: #cfd8dc;
         --thumbBG: #90a4ae;
-      }
-      * {
         font-family: "Open Sans", sans-serif !important;
         color: #66f;
+      }
+      * {
         cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFeklEQVR4Xu1aXWwUVRT+ZrZboC3bEBA10WhS1IQXpBDji6/64B8vvgh0p6JoxFjgQVvwoTVS0AS49y5llYAhQvtgiaBUkGAihBeLtLNV2/hXIz9FN4WWUrbt/swcc7eAG352d7qz3V139nHnnnO++e537tx7zlVQ5D+lyN8fDgGOAoqcAScFilwAziLopECuUoACNYthqo/V7fWAiH71+Xx6LrDkTAGke/cByotr91bK9/6Sc76yyAjQ9gNYJgkgokNCiBUOATlgIIcp4Cig8FOAOmvmwjXz6ppPS+bu3LnzHysKpoC2GSQXQQ8B+Ipz3mDJvmfl/KaDVUPBYHC23+8ftmKbODajFCDdOxiaUM42HahcEjWU9xhjm6wAIWpUm5qAxsZG05Kd7t0IKB98fLys65cB90Oc83us2NtHQEB7F4Qt5wZdwzuOVcyJGsoGxtjmqYJJx450bQOATTKm75tyGbOec/5hOrZ3GpORAqRD0msbAGq+QUI4Sg1CiC1TBZTMLhuxMiZgkoRJSUoS2JGKOSZhPed8u50kUKB2HYi22U20LQTcVIKCV+tbPf3jYTovhFh1KwFEUKFry6OEZ4ZHXU8agGfkmorgiDLy3c8zO4dDOCaEaAVw25pA3doeg/DAhrbKBRNR+kQI8ZEdBNtGQFLpdq1aANVohYKlkCTc5TcypuLQ6Vlm4Kz7jGEYL/t8vn47XjKZj6wTQAHtMxCtAJS0Yw2OqNjWUUYTsZJ9jDFvNklIG5RVEPT5S6VYUK5DwUKrtnJ8JAaIoxUYGCrpHRgYqG5vb49MxU8qm+wRoGvyePt4KgDJnkcNoOmAB9fGFZ1zXp2Jr7vZZoUA6tb8UPCGHYCvhFQ0ts+Wrvyc8zft8GnbRuhOYOjM6nlwRYLA3Rc7qy9x8PQsnOwrNWOx2PyWlpbLVu2ndREk3XsYUJ6zE+REREF9W7xydFgI8YKdvm1PAdK1EIAyO0FKX1sPl+PCkDvEGKuw07etBFBPbTVM6rIT4A1fZ/pLsf/ULEQikUV+v/9Hu2LYS0BAWw/CVrvAJfo5f8mFrR3xya/jnAu7YqQkgLprF0KlPaPj6v2hsHLz2BmOwth1vLx/LKKeYoy9LQFRl3cHVGWNXeAS/QyHVDRNfg0E57wuHi+gCdPEU5dGXVUmwRX/zyR8/3vp4Mm+GX+bprnK5/P1ZbQIFiIBnX/MGDzRW2oPAVZmk/6PKWCNgJrFILXbik26YwtiEYznYDF/Bq8T0AHg2XRnNp1xE1EF9a3xjVCHEOL5dGzSHZPyK5Cuoxvj4lvhkkgw2bnfqs/rW2EjFovdm/db4bgKsnAYIqIWIcRbVslLNd52BdxUgl4bAGhRKgDJnsvj8PsHPBgttONwXAWyIPJIuawJTK0gYijwHSnD+cslvRcvXiy8gsh/SpBtcCy3WhLb/nU5jUdd+xljNZmoKJVt1lIgMTD9tLoKsUgbgKXJ6gSyKPpF50yz56z7B9M0lxdUUXSyaYFX3tlX8Wc4ppwTQrx2K/vxsnhAq4nE1KevhJQnDJMqR8ZdFLyiXD3RK8viyjHOuWya3l4WD2i7DQMPNrR5qsJR7MqrsnhiY2T7kYo5gLKOMcZSyc/K87xtjCT26mR/sKhaY5Tz5qhsyCJ3zVHStUtjYfWvxvbZSyIxbOScN1uSdYbt8V3flnX1XXA/zDmfZyVu4tiMvgIZXZDQvc2AumztXo/EI2+JWbsgcVq77/XdpZfdbrcnk+1xRgRMlfXrh6bCvyLjEJABA6Q7t8SKPAXibfPJm6LFeVVWNlEMelRellZV9TfGWFZqiamyNGdfgVTApuu5Q8B0MZ2vcRwF5OvMTBcuRwHTxXS+xnEUkK8zM124/gXa2TJu2nUEagAAAABJRU5ErkJggg==),
           auto;
       }
@@ -91,5 +88,24 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Navbar collapse on scroll below 100px
+        changeNavbar();
+
+        $(window).scroll(function () {
+          changeNavbar();
+        });
+
+        function changeNavbar() {
+          var navbar = $("#navbarSupportedContent");
+          if ($(this).scrollTop() >= 100) {
+            navbar.removeClass("show");
+          } else if ($(this).scrollTop() < 100) {
+            navbar.addClass("");
+          }
+        }
+      });
+    </script>
   </body>
 </html>
