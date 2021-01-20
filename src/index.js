@@ -17,6 +17,8 @@ import { Footer } from './components/footer';
 import { Videoresources } from "./views/videoResources";
 import { Interviews } from "./views/interviews";
 import { ScalableSoftwareArc } from "./views/SoftwareArc";
+import { Container, Button } from 'react-floating-action-button'
+
 getData()
 
 const Home = () => {
@@ -45,6 +47,21 @@ const Home = () => {
       </div>
 
     </>
+  )
+}
+export const FAB = () => {
+  return (
+    <Container>
+      <Button
+        tooltip="Star Repo & follow"
+        icon="fa fa-heart"
+        styles={{ backgroundColor: "blue" }}
+        rotate={true}
+        onClick={() => {
+          window.location.assign('http://github.com/eswar2001');
+        }}
+      />
+    </Container>
   )
 }
 ReactDOM.render(
@@ -95,7 +112,7 @@ ReactDOM.render(
           <Home />
         </Route>
       </Switch>
-
+      <FAB />
     </Router>
   </>,
   document.getElementById("root")

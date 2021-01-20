@@ -19,12 +19,12 @@ export const Navbar = () => {
                     <li className="nav-item" ><Link className="nav-link" to="/Hackerearth">Hackerearth</Link></li>
                     <li className="nav-item "><Link className="nav-link" to="/Leetcode">Leetcode</Link></li>
                     <li className="nav-item "><Link className="nav-link" to="/Kaggle">Kaggle</Link></li>
-                    <li className="nav-item "><Link className="nav-link" to="/curatesList">Coding resources</Link></li>
+                    <li className="nav-item "><Link className="nav-link" to="/curatesList">CodingResources</Link></li>
                     <li className="nav-item "><Link className="nav-link" to="/crackDSA">450DSA</Link></li>
                     <li className="nav-item "><Link className="nav-link" to="/syllabus">Syllabus</Link></li>
-                    <li className="nav-item "><Link className="nav-link" to="/video">Video resources</Link></li>
+                    <li className="nav-item "><Link className="nav-link" to="/video">VideoResources</Link></li>
                     <li className="nav-item "><Link className="nav-link" to="/interview">Interview</Link></li>
-                    <li className="nav-item "><Link className="nav-link" to="/ssa">Software Architecture</Link></li>
+                    <li className="nav-item "><Link className="nav-link" to="/ssa">SoftwareArchitecture</Link></li>
                 </ul>
             </div>
         </nav>
