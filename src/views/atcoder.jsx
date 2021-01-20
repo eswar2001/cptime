@@ -7,14 +7,16 @@ const Atcoder = () => {
     if (oatcoder.length !== 0 && uatcoder.length !== 0) {
         return (<>
             <div className="container" >
-                <h1>Ongoing Contests</h1>
+                <h3>About:</h3>
+                <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational</p>
+                <h3>Ongoing Contests</h3>
                 <div className="card-group"> {oatcoder.map((uData) => {
                     return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
                 })}</div>
             </div>
             <div className="container" >
-                <h1>upcoming Contests</h1>
+                <h3>upcoming Contests</h3>
                 <div className="card-group">{uatcoder.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
@@ -25,7 +27,10 @@ const Atcoder = () => {
     else if (oatcoder.length !== 0) {
         return (<>
             <div className="container" >
-                <h1>Ongoing Contests</h1>
+                <h3>About:</h3>
+                <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational</p>
+
+                <h3>Ongoing Contests</h3>
                 <div className="card-group"> {oatcoder.map((uData) => {
                     return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
@@ -35,7 +40,9 @@ const Atcoder = () => {
     } else if (uatcoder.length !== 0) {
         return (<>
             <div className="container" >
-                <h1>upcoming Contests</h1>
+                <h3>About:</h3>
+                <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational</p>
+                <h3>upcoming Contests</h3>
                 <div className="card-group">{uatcoder.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)

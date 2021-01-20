@@ -12,6 +12,7 @@ import { Navbar } from "./components/navbar";
 import { getData } from "./server/server";
 import { CuratedList } from "./views/curatedList";
 import { PcardList, Plistview } from "./components/Pcard";
+import { Syllabus } from "./views/syllabus";
 getData()
 
 const Home = () => {
@@ -27,9 +28,11 @@ const Home = () => {
         </div>
         <div className="row">
           <div className="col-md-2  col-sm-0"></div>
-          <div className="col" style={{ textAlign: "center" }}>
-            <h1>CpTime</h1>
-            <h3>A place where you find everything</h3>
+          <div className="col" style={{ textAlign: "center", color: "whitesmoke" }}>
+            <h1 style={{
+              fontWeight: "bolder"
+            }}>CpTime</h1>
+            <h4>A place where you find everything about Competitive Coding</h4>
           </div>
           <div className="col-md-2  col-sm-0"></div>
         </div>
@@ -68,6 +71,9 @@ ReactDOM.render(
         </Route>
         <Route path='/crackDSA'>
           <PcardList />
+        </Route>
+        <Route path='/syllabus'>
+          <Syllabus />
         </Route>
         <Route path="/">
           <Home />

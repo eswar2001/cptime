@@ -9,14 +9,18 @@ function Codeforces(params) {
     if (ocodeforces.length !== 0 && ucodeforces.length !== 0) {
         return (<>
             <div className="container" >
-                <h1>Ongoing Contests</h1>
+                <h3>About</h3>
+                <p>Codeforces is a website that hosts competitive programming contests. It is maintained by a group of competitive programmers from ITMO University led by Mikhail Mirzayanov. Since 2013, Codeforces claims to surpass Topcoder in terms of active contestants. As of 2018, it has over 600,000 registered users.
+                <br /> <strong>Owner:</strong> Mike Mirzayanov
+                <br /> <strong>Users:</strong> 600,000</p>
+                <h3>Ongoing Contests</h3>
                 <div className="card-group"> {ocodeforces.map((uData) => {
                     return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
                 })}</div>
             </div>
             <div className="container" >
-                <h1>upcoming Contests</h1>
+                <h3>upcoming Contests</h3>
                 <div className="card-group">{ucodeforces.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
@@ -27,17 +31,27 @@ function Codeforces(params) {
     else if (ocodeforces.length !== 0) {
         return (<>
             <div className="container" >
-                <h1>Ongoing Contests</h1>
+                <h3>About</h3>
+                <p>Codeforces is a website that hosts competitive programming contests. It is maintained by a group of competitive programmers from ITMO University led by Mikhail Mirzayanov. Since 2013, Codeforces claims to surpass Topcoder in terms of active contestants. As of 2018, it has over 600,000 registered users.
+                <br /> <strong>Owner:</strong> Mike Mirzayanov
+                <br /> <strong>Users:</strong> 600,000</p>
+
+                <h3>Ongoing Contests</h3>
                 <div className="card-group"> {ocodeforces.map((uData) => {
                     return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
                 })}</div>
             </div>
         </>);
-    } else if(ucodeforces.length!==0){
+    } else if (ucodeforces.length !== 0) {
         return (<>
             <div className="container" >
-                <h1>upcoming Contests</h1>
+                <h3>About</h3>
+                <p>Codeforces is a website that hosts competitive programming contests. It is maintained by a group of competitive programmers from ITMO University led by Mikhail Mirzayanov. Since 2013, Codeforces claims to surpass Topcoder in terms of active contestants. As of 2018, it has over 600,000 registered users.
+                <br /> <strong>Owner:</strong> Mike Mirzayanov
+                <br /> <strong>Users:</strong> 600,000</p>
+
+                <h3>upcoming Contests</h3>
                 <div className="card-group">{ucodeforces.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)

@@ -9,14 +9,16 @@ function Kaggle(params) {
     if (okaggle.length !== 0 && ukaggle.length !== 0) {
         return (<>
             <div className="container" >
-                <h1>Ongoing Contests</h1>
+                <h3>About</h3>
+                <p>Kaggle is the world's largest data science community with powerful tools and resources to help you achieve your data science goals.</p>
+                <h3>Ongoing Contests</h3>
                 <div className="card-group"> {okaggle.map((uData) => {
                     return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
                 })}</div>
             </div>
             <div className="container" >
-                <h1>upcoming Contests</h1>
+                <h3>upcoming Contests</h3>
                 <div className="card-group">{ukaggle.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
@@ -27,7 +29,9 @@ function Kaggle(params) {
     else if (okaggle.length !== 0) {
         return (<>
             <div className="container" >
-                <h1>Ongoing Contests</h1>
+                <h3>About</h3>
+                <p>Kaggle is the world's largest data science community with powerful tools and resources to help you achieve your data science goals.</p>
+                <h3>Ongoing Contests</h3>
                 <div className="card-group"> {okaggle.map((uData) => {
                     return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
@@ -37,7 +41,9 @@ function Kaggle(params) {
     } else if (ukaggle.length !== 0) {
         return (<>
             <div className="container" >
-                <h1>upcoming Contests</h1>
+                <h3>About</h3>
+                <p>Kaggle is the world's largest data science community with powerful tools and resources to help you achieve your data science goals.</p>
+                <h3>upcoming Contests</h3>
                 <div className="card-group">{ukaggle.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
