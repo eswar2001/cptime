@@ -20,7 +20,6 @@ html {
 }
 h1 {
   color: blanchedalmond;
-  font-weight: 500;
 }
 .card-header {
   color: #66f;
@@ -39,7 +38,7 @@ h1 {
   font-size: small;
 }
 a {
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #fff;
 }
 

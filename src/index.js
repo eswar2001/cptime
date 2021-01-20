@@ -13,9 +13,11 @@ import { getData } from "./server/server";
 import { CuratedList } from "./views/curatedList";
 import { PcardList, Plistview } from "./components/Pcard";
 import { Syllabus } from "./views/syllabus";
+import { Footer } from './components/footer';
 getData()
 
 const Home = () => {
+
   return (
     <>
       <div className="container" style={{ paddingTop: "15%" }}>
@@ -33,10 +35,12 @@ const Home = () => {
               fontWeight: "bolder"
             }}>CpTime</h1>
             <h4>A place where you find everything about Competitive Coding</h4>
+            <Footer />
           </div>
           <div className="col-md-2  col-sm-0"></div>
         </div>
       </div>
+
     </>
   )
 }
@@ -79,6 +83,7 @@ ReactDOM.render(
           <Home />
         </Route>
       </Switch>
+
     </Router>
   </>,
   document.getElementById("root")
