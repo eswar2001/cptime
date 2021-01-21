@@ -112,7 +112,7 @@ ReactDOM.render(
           <Home />
         </Route>
       </Switch>
-      <FAB />
+      {/* <FAB /> */}
     </Router>
   </>,
   document.getElementById("root")
