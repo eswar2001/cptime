@@ -15,8 +15,7 @@ var oatcoder = [],
 let upcoming;
 let ongoing;
 export const getData = () => {
-    const url = process.env.RESTAPI_URL;
-    console.log(process.env);
+    const url = process.env.React_App_RESTAPI_URL;
     fetch(url, {
         method: "get"
     }).then(res => res.json())
@@ -59,7 +58,7 @@ export const getData = () => {
         .catch(() => {
             upcoming = JSON.parse(localStorage.getItem('upcoming'))
             ongoing = JSON.parse(localStorage.getItem('ongoing'))
-            // console.log(ongoing)
+            console.log('fetched from cache')
             for (let i in upcoming) {
                 if (upcoming[i].platform === "codeforces") {
                     ucodeforces.push(upcoming[i]);
