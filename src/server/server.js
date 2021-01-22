@@ -15,8 +15,8 @@ var oatcoder = [],
 let upcoming;
 let ongoing;
 export const getData = () => {
-    const url = process.env.API;
-    console.log(url);
+    const url = process.env.RESTAPI_URL;
+    console.log(process.env);
     fetch(url, {
         method: "get"
     }).then(res => res.json())
@@ -59,7 +59,7 @@ export const getData = () => {
         .catch(() => {
             upcoming = JSON.parse(localStorage.getItem('upcoming'))
             ongoing = JSON.parse(localStorage.getItem('ongoing'))
-            console.log(ongoing)
+            // console.log(ongoing)
             for (let i in upcoming) {
                 if (upcoming[i].platform === "codeforces") {
                     ucodeforces.push(upcoming[i]);
