@@ -15,7 +15,7 @@ var oatcoder = [],
 let upcoming;
 let ongoing;
 export const getData = () => {
-    const url = "https://cplistapi.herokuapp.com/";
+    const url = process.env.API;
     fetch(url, {
         method: "get"
     }).then(res => res.json())
