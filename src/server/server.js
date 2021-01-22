@@ -16,6 +16,7 @@ let upcoming;
 let ongoing;
 export const getData = () => {
     const url = process.env.API;
+    console.log(url);
     fetch(url, {
         method: "get"
     }).then(res => res.json())
