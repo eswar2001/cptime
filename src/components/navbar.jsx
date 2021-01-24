@@ -25,6 +25,7 @@ export const Navbar = () => {
                     <li className="nav-item "><Link className="nav-link" to="/video">VideoResources</Link></li>
                     <li className="nav-item "><Link className="nav-link" to="/interview">Interview</Link></li>
                     <li className="nav-item "><Link className="nav-link" to="/ssa">SoftwareArchitecture</Link></li>
+                    <li className="nav-item "><Link className="nav-link" to="/feedback">Feedback</Link></li>
                 </ul>
             </div>
         </nav>

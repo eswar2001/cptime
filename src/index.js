@@ -18,6 +18,7 @@ import { Videoresources } from "./views/videoResources";
 import { Interviews } from "./views/interviews";
 import { ScalableSoftwareArc } from "./views/SoftwareArc";
 import { Container, Button } from 'react-floating-action-button'
+import { Feedback } from "./components/feedback";
 
 getData()
 
@@ -107,6 +108,9 @@ ReactDOM.render(
         </Route>
         <Route path='/ssa'>
           <ScalableSoftwareArc />
+        </Route>
+        <Route path='/feedback'>
+          <Feedback />
         </Route>
         <Route path="/">
           <Home />
