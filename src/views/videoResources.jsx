@@ -5,246 +5,257 @@ export const Videoresources = () => {
         <p><strong>Introduction</strong></p>
         <hr />
         <h2 id="table-of-contents">Table of Contents</h2>
-        <ul>
-            <li><a target="_blank" rel="noreferrer" href="#introduction-to-computer-science">Introduction to Computer Science</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#data-structures-and-algorithms">Data Structures and Algorithms</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#systems-programming">Systems Programming</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#database-systems">Database Systems</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#software-engineering">Software Engineering</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#artificial-intelligence">Artificial Intelligence</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#machine-learning">Machine Learning</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#web-programming-and-internet-technologies">Web Programming and Internet Technologies</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#computer-networks">Computer Networks</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#math-for-computer-scientist">Math for Computer Scientist</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#theoretical-cs-and-programming-languages">Theoretical CS and Programming Languages</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#embedded-systems">Embedded Systems</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#computer-organization-and-architecture">Computer Organization and Architecture</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#security">Security</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#computer-graphics">Computer Graphics</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#image-processing-and-computer-vision">Image Processing and Computer Vision</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#computational-biology">Computational Biology</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#quantum-computing">Quantum Computing</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#robotics">Robotics</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#computational-finance">Computational Finance</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#misc">Misc</a></li>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#introduction-to-computer-science">Introduction to Computer Science</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#data-structures-and-algorithms">Data Structures and Algorithms</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#systems-programming">Systems Programming</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#database-systems">Database Systems</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#software-engineering">Software Engineering</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#artificial-intelligence">Artificial Intelligence</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#machine-learning">Machine Learning</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#web-programming-and-internet-technologies">Web Programming and Internet Technologies</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#computer-networks">Computer Networks</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#math-for-computer-scientist">Math for Computer Scientist</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#theoretical-cs-and-programming-languages">Theoretical CS and Programming Languages</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#embedded-systems">Embedded Systems</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#computer-organization-and-architecture">Computer Organization and Architecture</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#security">Security</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#computer-graphics">Computer Graphics</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#image-processing-and-computer-vision">Image Processing and Computer Vision</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#computational-biology">Computational Biology</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#quantum-computing">Quantum Computing</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#robotics">Robotics</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#computational-finance">Computational Finance</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="#misc">Misc</a></li>
         </ul>
         <h2 id="courses">Courses</h2>
         <h3 id="introduction-to-computer-science">Introduction to Computer Science</h3>
-        <ul>
-            <li><a target="_blank" rel="noreferrer" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs10-spring2015-berkeley.html">CS 10 - The Beauty and Joy of Computing - Spring 2015 - Dan Garcia - UC Berkeley InfoCoBuild</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/">6.0001 - Introduction to Computer Science and Programming in Python - MIT OCW</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures">6.001 - Structure and Interpretation of Computer Programs, MIT</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science">CS 50 - Introduction to Computer Science, Harvard University</a> (<a target="_blank" rel="noreferrer" href="http://cs50.tv/2017/fall/">cs50.tv</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://cs61a.org/">CS 61A - Structure and Interpretation of Computer Programs [Python], UC Berkeley</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UC7dEjIUwSxSNcW4PqNRQW8w/playlists?view=1&amp;flow=grid&amp;sort=da">CPSC 110 - Systematic Program Design [Racket], University of British Columbia</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLhQjrBD2T382p8amnvUp1rws1p7n7gJ2p">CS50&#39;s Understanding Technology</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/cse142/16sp/calendar.shtml">CSE 142 Computer Programming I (Java Programming), Spring 2016 - University of Washington</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.cc.gatech.edu/classes/AY2016/cs1301c_fall/">CS 1301 Intro to computing - Gatech</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://see.stanford.edu/Course/CS106A">CS 106A - Programming Methodology, Stanford University</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL84A56BC7F4A1F852">Lecture Videos</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://see.stanford.edu/Course/CS106B">CS 106B - Programming Abstractions, Stanford University</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLnfg8b9vdpLn9exZweTJx44CII1bYczuk">Lecture Videos</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="http://web.stanford.edu/class/cs106x/">CS 106X - Programming Abstractions in C++</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLrivl8gTKLcpIJ-ktHCxMEgWOn8LawYhb">Lecture Videos</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://see.stanford.edu/Course/CS107">CS 107 - Programming Paradigms, Stanford University</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://ProgramArcadeGames.com">CmSc 150 - Introduction to Programming with Arcade Games, Simpson College</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLw454N-VXALSIzIe_eL5U8L4S68v2X_ak">LINFO 1104 - Paradigms of computer programming, Peter Van Roy, Université catholique de Louvain, Belgium - EdX</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.tudelft.nl/courses/introduction-to-functional-programming/">FP 101x - Introduction to Functional Programming, TU Delft</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104074/">Introduction to Problem Solving and Programming - IIT Kanpur</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104128/">Introduction to programming in C - IIT Kanpur</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105151/">Programming in C++ - IIT Kharagpur</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLKW2Azk23ZtSeBcvJi0JnL7PapedOvwz9">Python Boot Camp Fall 2016 - Berkeley Institute for Data Science (BIDS)</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPmjFQ2w9j05WDX8Jtg5RXWW">CS 101 - Introduction to Computer Science - Udacity</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/">6.00SC - Introduction to Computer Science and Programming (Spring 2011) - MIT OCW</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/">6.00    - Introduction to Computer Science and Programming (Fall 2008) - MIT OCW</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/">6.01SC - Introduction to Electrical Engineering and Computer Science I - MIT OCW</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C">Modern C++ Course (2018) - Bonn University</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLgnQpQtFTOGRM59sr3nSL8BmeMZR9GCIA">Modern C++ (Lecture &amp; Tutorials, 2020, Vizzo &amp; Stachniss) - University of Bonn</a></li>
+         <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs10-spring2015-berkeley.html">CS 10 - The Beauty and Joy of Computing - Spring 2015 - Dan Garcia - UC Berkeley InfoCoBuild</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/">6.0001 - Introduction to Computer Science and Programming in Python - MIT OCW</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures">6.001 - Structure and Interpretation of Computer Programs, MIT</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science">CS 50 - Introduction to Computer Science, Harvard University</a> (<a target="_blank" rel="noreferrer" href="http://cs50.tv/2017/fall/">cs50.tv</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://cs61a.org/">CS 61A - Structure and Interpretation of Computer Programs [Python], UC Berkeley</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UC7dEjIUwSxSNcW4PqNRQW8w/playlists?view=1&amp;flow=grid&amp;sort=da">CPSC 110 - Systematic Program Design [Racket], University of British Columbia</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLhQjrBD2T382p8amnvUp1rws1p7n7gJ2p">CS50&#39;s Understanding Technology</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/cse142/16sp/calendar.shtml">CSE 142 Computer Programming I (Java Programming), Spring 2016 - University of Washington</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.cc.gatech.edu/classes/AY2016/cs1301c_fall/">CS 1301 Intro to computing - Gatech</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://see.stanford.edu/Course/CS106A">CS 106A - Programming Methodology, Stanford University</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL84A56BC7F4A1F852">Lecture Videos</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://see.stanford.edu/Course/CS106B">CS 106B - Programming Abstractions, Stanford University</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLnfg8b9vdpLn9exZweTJx44CII1bYczuk">Lecture Videos</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://web.stanford.edu/class/cs106x/">CS 106X - Programming Abstractions in C++</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLrivl8gTKLcpIJ-ktHCxMEgWOn8LawYhb">Lecture Videos</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://see.stanford.edu/Course/CS107">CS 107 - Programming Paradigms, Stanford University</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://ProgramArcadeGames.com">CmSc 150 - Introduction to Programming with Arcade Games, Simpson College</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLw454N-VXALSIzIe_eL5U8L4S68v2X_ak">LINFO 1104 - Paradigms of computer programming, Peter Van Roy, Université catholique de Louvain, Belgium - EdX</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.tudelft.nl/courses/introduction-to-functional-programming/">FP 101x - Introduction to Functional Programming, TU Delft</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104074/">Introduction to Problem Solving and Programming - IIT Kanpur</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104128/">Introduction to programming in C - IIT Knpur</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105151/">Programming in C++ - IIT Kharagpur</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLKW2Azk23ZtSeBcvJi0JnL7PapedOvwz9">Python Boot Camp Fall 2016 - Berkeley Institute for Data Science (BIDS)</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPmjFQ2w9j05WDX8Jtg5RXWW">CS 101 - Introduction to Computer Science - Udacity</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/">6.00SC - Introduction to Computer Science and Programming (Spring 2011) - MIT OCW</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/">6.00    - Introduction to Computer Science and Programming (Fall 2008) - MIT OCW</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/">6.01SC - Introduction to Electrical Engineering and Computer Science I - MIT OCW</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C">Modern C++ Course (2018) - Bonn University</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLgnQpQtFTOGRM59sr3nSL8BmeMZR9GCIA">Modern C++ (Lecture &amp; Tutorials, 2020, Vizzo &amp; Stachniss) - University of Bonn</a></li>
         </ul>
+            
         <hr />
         <h3 id="data-structures-and-algorithms">Data Structures and Algorithms</h3>
-        <ul>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/">6.006 - Introduction to Algorithms, MIT OCW</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLXFMmlk03Dt7Q0xr1PIAriY5623cKiH7V">Algorithms: Design and Analysis 1 - Stanford University</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLXFMmlk03Dt5EMI2s2WQBsLsZl7A5HEK6">Algorithms: Design and Analysis 2 - Stanford University</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=1QZDe28peZk&amp;list=PLRdD1c6QbAqJn0606RlOR6T3yUqFWKwmX&amp;index=1">COS 226 Algorithms, Youtube, Princeton - by Robert Sedgewick and Kevin Wayne</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://www-student.cse.buffalo.edu/~atri/cse331/fall17/index.html">CSE 331 Introduction to Algorithm Design and Analysis, SUNY University at Buffalo, NY - Fall 2017</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZBCR-EGqNpoiHeO17FlLADJ38Kb3EiPU">Lectures</a>) (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZBCR-EGqNpoVyQCIUDHiXnL-zdFD_ixk">Homework Walkthroughs</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="http://www.cs.sunysb.edu/~algorith/video-lectures/">CSE 373 - Analysis of Algorithms, Stony Brook - Prof Skiena</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://www.cise.ufl.edu/~sahni/cop3530/">COP 3530 Data Structures and Algorithms, Prof Sahni, UFL</a> (<a target="_blank" rel="noreferrer" href="http://www.cise.ufl.edu/academics/courses/preview/cop3530sahni/">Videos</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://cs.illinois.edu/courses/profile/CS225">CS225 - Data Structures - University of Illinois at Urbana-Champaign</a>(<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLRdSp8jtJxBqG3KNQPKKB-0Z2hh9omoDo">Video lectures</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLE621E25B3BF8B9D1">CS2 - Data Structures and Algorithms - Richard Buckland - UNSW</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://itunes.apple.com/us/course/data-structures/id546468797">Data Structures - Pepperdine University</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms">CS 161 - Design and Analysis of Algorithms, Prof. Tim Roughgarden, Stanford University</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/">6.046J - Introduction to Algorithms - Fall 2005, MIT OCW</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/">6.046 - Design and Analysis of Algorithms, Spring 2015 - MIT OCW</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://courses.engr.illinois.edu/cs473/sp2016/lectures.html">CS 473 - Algorithms - University of Illinois at Urbana-Champaign</a> (<a target="_blank" rel="noreferrer" href="http://jeffe.cs.illinois.edu/teaching/algorithms/">Notes - Jeff Erickson</a>) (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL0v718LJg-78SFq81e4kJh_rS8XbKZ7Kn">YouTube</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL07B3F10B48592010">COMP300E - Programming Challenges, Prof Skiena, Hong Kong University of Science and Technology - 2009</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://www.cs.virginia.edu/~shelat/16s-4102/">16s-4102 - Algorithms, University of Virginia</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCxXYk53cSZof2bR_Ax0uJYQ/videos">Youtube</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://cs170.org/">CS 170 Algorithms - UCBerkeley</a> <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=fd5P-8IQwMY&amp;list=PLkFD6_40KJIx8lWWbE-Uk069aZ1R-W-VU&amp;index=2&amp;t=0s">Fall 2018, Youtube</a> <a target="_blank" rel="noreferrer" href="https://www.bilibili.com/video/av43955743/?p=1">Fall 2018,Bilibili</a> <a target="_blank" rel="noreferrer" href="https://www.bilibili.com/video/av26670685/">2013 Bilibili</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://web.cs.ucdavis.edu/~gusfield/cs122f10/videolist.html">ECS 122A - Algorithm Design and Analysis, UC Davis</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep521/13wi/">CSEP 521 - Applied Algorithms, Winter 2013 - University of Washington</a> (<a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep521/13wi/video/">Videos</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106102064/">Data Structures And Algorithms - IIT Delhi</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106101060/">Design and Analysis of Algorithms - IIT Bombay</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106127/">Programming, Data Structures and Algorithms - IIT Madras</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106131/">Design and Analysis of Algorithms - IIT Madras</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105157/">Fundamental Algorithms:Design and Analysis - IIT Kharagpur</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105085/">Programming and Data Structure - IIT Kharagpur</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106133/">Programming, Data structures and Algorithms - IIT Madras</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106145/">Programming, Data Structures and Algorithms in Python - IIT Madras</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106130/">Programming and Data structures (PDS) - IIT Madras</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://www.cise.ufl.edu/~sahni/cop5536/index.html">COP 5536 Advanced Data Structures, Prof Sahni - UFL</a> (<a target="_blank" rel="noreferrer" href="http://www.cise.ufl.edu/academics/courses/preview/cop5536sahni/">Videos</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="http://theory.stanford.edu/~tim/w16/w16.html">CS 261 - A Second Course in Algorithms, Stanford University</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLEGCF-WLh2RJh2yDxlJJjnKswWdoO8gAc">Youtube</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="http://groups.inf.ed.ac.uk/vision/VIDEO/2013/inf2b-adsl.htm">Informatics 2B - Algorithms, Data Structures and Learning- University of Edinburgh</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://people.seas.harvard.edu/~minilek/cs224/fall14/index.html">CS 224 - Advanced Algorithms, Harvard University</a> (<a target="_blank" rel="noreferrer" href="http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html">Lecture Videos</a>) (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf">Youtube</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLbuogVdPnkCp8X9FHOglnLqFjyvqGLftx">CS 6150 - Advanced Algorithms (Fall 2016), University of Utah</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLbuogVdPnkCqS9Z419eky9m6gJP7zfhO9">CS 6150 - Advanced Algorithms (Fall 2017), University of Utah</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://web.cs.ucdavis.edu/~gusfield/cs222f07/videolist.html">ECS 222A - Graduate Level Algorithm Design and Analysis, UC Davis</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://courses.csail.mit.edu/6.851/spring14/lectures/">6.851 - Advanced Data Structures, MIT</a> (<a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/lecture-videos/">MIT OCW</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c">6.854 - Advanced Algorithms, MIT</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCtv9PiQVUDzsT4yl7524DCg/videos">Prof. Karger lectures</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="http://theory.stanford.edu/~tim/f14/f14.html">CS264 Beyond Worst-Case Analysis, Fall 2014 - Tim Roughgarden Lecture</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLEGCF-WLh2RL8jsZpaf2tLHa5LotFEt5b">Youtube</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLEGCF-WLh2RJBqmxvZ0_ie-mleCFhi2N4">CS364A Algorithmic Game Theory, Fall 2013 - Tim Roughgarden Lectures</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLEGCF-WLh2RI77PL4gwLld_OU9Zh3TCX9">CS364B Advanced Mechanism Design, Winter 2014 - Tim Roughgarden Lectures</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://aduni.org/courses/algorithms/index.php?view=cw">Algorithms - Aduni</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://courses.csail.mit.edu/6.889/fall11/lectures/">6.889 - Algorithms for Planar Graphs and Beyond (Fall 2011) MIT</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-890-algorithmic-lower-bounds-fun-with-hardness-proofs-fall-2014/">6.890 Algorithmic Lower Bounds: Fun with Hardness Proofs - MIT OCW</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104019/">Computer Algorithms - 2 - IIT Kanpur</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104120/">Parallel Algorithm - IIT Kanpur</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106108054/">Graph Theory - IISC Bangalore</a></li>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/">6.006 - Introduction to Algorithms, MIT OCW</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLXFMmlk03Dt7Q0xr1PIAriY5623cKiH7V">Algorithms: Design and Analysis 1 - Stanford University</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLXFMmlk03Dt5EMI2s2WQBsLsZl7A5HEK6">Algorithms: Design and Analysis 2 - Stanford University</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=1QZDe28peZk&amp;list=PLRdD1c6QbAqJn0606RlOR6T3yUqFWKwmX&amp;index=1">COS 226 Algorithms, Youtube, Princeton - by Robert Sedgewick and Kevin Wayne</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www-student.cse.buffalo.edu/~atri/cse331/fall17/index.html">CSE 331 Introduction to Algorithm Design and Analysis, SUNY University at Buffalo, NY - Fall 2017</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZBCR-EGqNpoiHeO17FlLADJ38Kb3EiPU">Lectures</a>) (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZBCR-EGqNpoVyQCIUDHiXnL-zdFD_ixk">Homework Walkthroughs</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.cs.sunysb.edu/~algorith/video-lectures/">CSE 373 - Analysis of Algorithms, Stony Brook - Prof Skiena</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.cise.ufl.edu/~sahni/cop3530/">COP 3530 Data Structures and Algorithms, Prof Sahni, UFL</a> (<a target="_blank" rel="noreferrer" href="http://www.cise.ufl.edu/academics/courses/preview/cop3530sahni/">Videos</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://cs.illinois.edu/courses/profile/CS225">CS225 - Data Structures - University of Illinois at Urbana-Champaign</a>(<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLRdSp8jtJxBqG3KNQPKKB-0Z2hh9omoDo">Video lectures</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLE621E25B3BF8B9D1">CS2 - Data Structures and Algorithms - Richard Buckland - UNSW</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://itunes.apple.com/us/course/data-structures/id546468797">Data Structures - Pepperdine University</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms">CS 161 - Design and Analysis of Algorithms, Prof. Tim Roughgarden, Stanford University</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/">6.046J - Introduction to Algorithms - Fall 2005, MIT OCW</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/">6.046 - Design and Analysis of Algorithms, Spring 2015 - MIT OCW</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://courses.engr.illinois.edu/cs473/sp2016/lectures.html">CS 473 - Algorithms - University of Illinois at Urbana-Champaign</a> (<a target="_blank" rel="noreferrer" href="http://jeffe.cs.illinois.edu/teaching/algorithms/">Notes - Jeff Erickson</a>) (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL0v718LJg-78SFq81e4kJh_rS8XbKZ7Kn">YouTube</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL07B3F10B48592010">COMP300E - Programming Challenges, Prof Skiena, Hong Kong University of Science and Technology - 2009</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.cs.virginia.edu/~shelat/16s-4102/">16s-4102 - Algorithms, University of Virginia</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCxXYk53cSZof2bR_Ax0uJYQ/videos">Youtube</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://cs170.org/">CS 170 Algorithms - UCBerkeley</a> <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=fd5P-8IQwMY&amp;list=PLkFD6_40KJIx8lWWbE-Uk069aZ1R-W-VU&amp;index=2&amp;t=0s">Fall 2018, Youtube</a> <a target="_blank" rel="noreferrer" href="https://www.bilibili.com/video/av43955743/?p=1">Fall 2018,Bilibili</a> <a target="_blank" rel="noreferrer" href="https://www.bilibili.com/video/av26670685/">2013 Bilibili</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://web.cs.ucdavis.edu/~gusfield/cs122f10/videolist.html">ECS 122A - Algorithm Design and Analysis, UC Davis</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep521/13wi/">CSEP 521 - Applied Algorithms, Winter 2013 - University of Washington</a> (<a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep521/13wi/video/">Videos</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106102064/">Data Structures And Algorithms - IIT Delhi</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106101060/">Design and Analysis of Algorithms - IIT Bombay</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106127/">Programming, Data Structures and Algorithms - IIT Madras</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106131/">Design and Analysis of Algorithms - IIT Madras</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105157/">Fundamental Algorithms:Design and Analysis - IIT Kharagpur</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105085/">Programming and Data Structure - IIT Kharagpur</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106133/">Programming, Data structures and Algorithms - IIT Madras</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106145/">Programming, Data Structures and Algorithms in Python - IIT Madras</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106130/">Programming and Data structures (PDS) - IIT Madras</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.cise.ufl.edu/~sahni/cop5536/index.html">COP 5536 Advanced Data Structures, Prof Sahni - UFL</a> (<a target="_blank" rel="noreferrer" href="http://www.cise.ufl.edu/academics/courses/preview/cop5536sahni/">Videos</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://theory.stanford.edu/~tim/w16/w16.html">CS 261 - A Second Course in Algorithms, Stanford University</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLEGCF-WLh2RJh2yDxlJJjnKswWdoO8gAc">Youtube</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://groups.inf.ed.ac.uk/vision/VIDEO/2013/inf2b-adsl.htm">Informatics 2B - Algorithms, Data Structures and Learning- University of Edinburgh</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://people.seas.harvard.edu/~minilek/cs224/fall14/index.html">CS 224 - Advanced Algorithms, Harvard University</a> (<a target="_blank" rel="noreferrer" href="http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html">Lecture Videos</a>) (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf">Youtube</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLbuogVdPnkCp8X9FHOglnLqFjyvqGLftx">CS 6150 - Advanced Algorithms (Fall 2016), University of Utah</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLbuogVdPnkCqS9Z419eky9m6gJP7zfhO9">CS 6150 - Advanced Algorithms (Fall 2017), University of Utah</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://web.cs.ucdavis.edu/~gusfield/cs222f07/videolist.html">ECS 222A - Graduate Level Algorithm Design and Analysis, UC Davis</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://courses.csail.mit.edu/6.851/spring14/lectures/">6.851 - Advanced Data Structures, MIT</a> (<a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/lecture-videos/">MIT OCW</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c">6.854 - Advanced Algorithms, MIT</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCtv9PiQVUDzsT4yl7524DCg/videos">Prof. Karger lectures</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://theory.stanford.edu/~tim/f14/f14.html">CS264 Beyond Worst-Case Analysis, Fall 2014 - Tim Roughgarden Lecture</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLEGCF-WLh2RL8jsZpaf2tLHa5LotFEt5b">Youtube</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLEGCF-WLh2RJBqmxvZ0_ie-mleCFhi2N4">CS364A Algorithmic Game Theory, Fall 2013 - Tim Roughgarden Lectures</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLEGCF-WLh2RI77PL4gwLld_OU9Zh3TCX9">CS364B Advanced Mechanism Design, Winter 2014 - Tim Roughgarden Lectures</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://aduni.org/courses/algorithms/index.php?view=cw">Algorithms - Aduni</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://courses.csail.mit.edu/6.889/fall11/lectures/">6.889 - Algorithms for Planar Graphs and Beyond (Fall 2011) MIT</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-890-algorithmic-lower-bounds-fun-with-hardness-proofs-fall-2014/">6.890 Algorithmic Lower Bounds: Fun with Hardness Proofs - MIT OCW</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104019/">Computer Algorithms - 2 - IIT Kanpur</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104120/">Parallel Algorithm - IIT Kanpur</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106108054/">Graph Theory - IISC Bangalore</a></li>
+
         </ul>
         <hr />
         <h3 id="systems-programming">Systems Programming</h3>
-        <ul>
-            <li><a target="_blank" rel="noreferrer" href="https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&amp;maxResults=150">15-213 Introduction to Computer Systems, Fall 2015  - CMU</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.cs.uic.edu/CS361fall13">CS361 - COMPUTER SYSTEMS - UIC</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.eng.utah.edu/~cs4400/">CS 4400 – Computer Systems   Fall 2016 - UoUtah</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://aduni.org/courses/systems/index.php?view=cw">Systems - Aduni</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://web.stanford.edu/class/archive/cs/cs110/cs110.1202/">CS110: Principles of Computer Systems - Stanford</a></li>
-            <li><strong>Operating Systems</strong><ul>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL3swII2vlVoVbav6FV98pidq6BsTN4u56">CS124 Operating Systems - California Institute of Technology, Fall 2018 - Youtube</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c?sort=titleSorter">CS 162 Operating Systems and Systems Programming, Spring 2015 - University of California, Berkeley</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://rust-class.org/pages/classes.html">CS 4414 - Operating Systems, University of Virginia (rust-class)</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.cs.virginia.edu/~cr4bd/4414/F2018/schedule.html">CS 4414 Operating Systems, Fall 2018 - University of Virginia</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.ops-class.org/courses/buffalo/CSE421_Spring2016/">CSE 421/521 - Introduction to Operating Systems, SUNY University at Buffalo, NY - Spring 2016</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLE6LEE8y2Jp-kbEcVR2W3vfx0Pdca0BD3">Lectures - YouTube</a>) (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLE6LEE8y2Jp_YJn8wu9aJTPOgeWqiaJDF">Recitations 2016</a>) (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLE6LEE8y2Jp9PC8fyzc2meL4XvrVSyP8O">Assignment walkthroughs</a>)</li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLacuG5pysFbDTmsCRGWsMW_PzIOpXnckw">CS 377 - Operating Systems, Fall 16 - Umass OS</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLfciLKR3SgqNJKKIKUliWoNBBH1VHL3AP">6.828 - Operating System Engineering [Fall 2014]</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://pdos.csail.mit.edu/6.828/2020/schedule.html">6.S081 - Operating System Engineering [Fall 2020]</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/view_play_list?p=AB7D5CA7E262B0E2">CSE 30341 - Operating Systems, Spr 2008</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep551/14au/video/">CSEP 551 Operating Systems Autumn 2014 - University of Washington</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106144/">Introduction to Operating Systems - IIT Madras</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs194-spring2013-berkeley.html">CS194 Advanced Operating Systems Structures and Implementation, Spring 2013 InfoCoBuild, UC Berkeley</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/view_play_list?p=22B10D854588E20C">CSE 60641 - Graduate Operating Systems, Fall 08</a></li>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&amp;maxResults=150">15-213 Introduction to Computer Systems, Fall 2015  - CMU</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.cs.uic.edu/CS361fall13">CS361 - COMPUTER SYSTEMS - UIC</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.eng.utah.edu/~cs4400/">CS 4400 – Computer Systems   Fall 2016 - UoUtah</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://aduni.org/courses/systems/index.php?view=cw">Systems - Aduni</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://web.stanford.edu/class/archive/cs/cs110/cs110.1202/">CS110: Principles of Computer Systems - Stanford</a></li>
+            <strong>Operating Systems</strong>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL3swII2vlVoVbav6FV98pidq6BsTN4u56">CS124 Operating Systems - California Institute of Technology, Fall 2018 - Youtube</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c?sort=titleSorter">CS 162 Operating Systems and Systems Programming, Spring 2015 - University of California, Berkeley</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://rust-class.org/pages/classes.html">CS 4414 - Operating Systems, University of Virginia (rust-class)</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.cs.virginia.edu/~cr4bd/4414/F2018/schedule.html">CS 4414 Operating Systems, Fall 2018 - University of Virginia</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.ops-class.org/courses/buffalo/CSE421_Spring2016/">CSE 421/521 - Introduction to Operating Systems, SUNY University at Buffalo, NY - Spring 2016</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLE6LEE8y2Jp-kbEcVR2W3vfx0Pdca0BD3">Lectures - YouTube</a>) (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLE6LEE8y2Jp_YJn8wu9aJTPOgeWqiaJDF">Recitations 2016</a>) (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLE6LEE8y2Jp9PC8fyzc2meL4XvrVSyP8O">Assignment walkthroughs</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLacuG5pysFbDTmsCRGWsMW_PzIOpXnckw">CS 377 - Operating Systems, Fall 16 - Umass OS</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLfciLKR3SgqNJKKIKUliWoNBBH1VHL3AP">6.828 - Operating System Engineering [Fall 2014]</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://pdos.csail.mit.edu/6.828/2020/schedule.html">6.S081 - Operating System Engineering [Fall 2020]</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/view_play_list?p=AB7D5CA7E262B0E2">CSE 30341 - Operating Systems, Spr 2008</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep551/14au/video/">CSEP 551 Operating Systems Autumn 2014 - University of Washington</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106144/">Introduction to Operating Systems - IIT Madras</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs194-spring2013-berkeley.html">CS194 Advanced Operating Systems Structures and Implementation, Spring 2013 InfoCoBuild, UC Berkeley</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/view_play_list?p=22B10D854588E20C">CSE 60641 - Graduate Operating Systems, Fall 08</a></li>
             </ul>
-            </li>
-            <li><strong>Distributed Systems</strong><ul>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLacuG5pysFbC68w0PW3huMHDDRNsDCTjp">CS 677 - Distributed Operating Systems, Spring 16 - Umass OS</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLawkBQ15NDEkDJ5IyLIJUTZ1rRM9YQq6N">CS 436 - Distributed Computer Systems - U Waterloo</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLkcQbKbegkMqiWf7nF8apfMRL4P4sw8UL">6.824 - Distributed Systems, Spring 2015 - MIT</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://pdos.csail.mit.edu/6.824/schedule.html">6.824 Distributed Systems - Spring 2020 - MIT</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB">Youtube</a>)</li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL700757A5D4B3F368">Distributed Algorithms, https://canvas.instructure.com/courses/902299</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep552/13sp/">CSEP 552 - PMP Distributed Systems, Spring 2013 - University of Washington</a> (<a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep552/13sp/video/">Videos</a>)</li>
-                <li><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/cse490h/08au/lectures.htm">CSE 490H - Scalable Systems: Design, Implementation and Use of Large Scale Clusters, Autumn 2008 - University of Washington</a> (<a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/cse490h/08au/video.htm">Videos</a>)</li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLFd87qVsaLhOkTLvfp6MC94iFa_1c9wrU">MOOC - Cloud Computing Concepts - UIUC</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLUJ7JmcrTifBROWODSG8wgyl20XgBuE-N">Distributed Systems (Prof. Pallab Dasgupta)</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLx3mQFFeHPjndmQ0iP9j6C58b90hqGa0X">EdX KTHx ID2203 Reliable Distributed Algorithms</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://www.ifis.cs.tu-bs.de/teaching/ss-15/ddm">Distributed Data Management - Technische Universität Braunschweig, Germany</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://www.ifis.cs.tu-bs.de/teaching/ws-1516/IRWS">Information Retrieval and Web Search Engines - Technische Universität Braunschweig, Germany</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/729/">Middleware and Distributed Systems (WS 2009/10) - Dr. Martin von Löwis - HPI</a></li>
+
+            <strong>Distributed Systems</strong>
+            <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLacuG5pysFbC68w0PW3huMHDDRNsDCTjp">CS 677 - Distributed Operating Systems, Spring 16 - Umass OS</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLawkBQ15NDEkDJ5IyLIJUTZ1rRM9YQq6N">CS 436 - Distributed Computer Systems - U Waterloo</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLkcQbKbegkMqiWf7nF8apfMRL4P4sw8UL">6.824 - Distributed Systems, Spring 2015 - MIT</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://pdos.csail.mit.edu/6.824/schedule.html">6.824 Distributed Systems - Spring 2020 - MIT</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB">Youtube</a>)</li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL700757A5D4B3F368">Distributed Algorithms, https://canvas.instructure.com/courses/902299</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep552/13sp/">CSEP 552 - PMP Distributed Systems, Spring 2013 - University of Washington</a> (<a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep552/13sp/video/">Videos</a>)</li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/cse490h/08au/lectures.htm">CSE 490H - Scalable Systems: Design, Implementation and Use of Large Scale Clusters, Autumn 2008 - University of Washington</a> (<a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/cse490h/08au/video.htm">Videos</a>)</li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLFd87qVsaLhOkTLvfp6MC94iFa_1c9wrU">MOOC - Cloud Computing Concepts - UIUC</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLUJ7JmcrTifBROWODSG8wgyl20XgBuE-N">Distributed Systems (Prof. Pallab Dasgupta)</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLx3mQFFeHPjndmQ0iP9j6C58b90hqGa0X">EdX KTHx ID2203 Reliable Distributed Algorithms</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.ifis.cs.tu-bs.de/teaching/ss-15/ddm">Distributed Data Management - Technische Universität Braunschweig, Germany</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.ifis.cs.tu-bs.de/teaching/ws-1516/IRWS">Information Retrieval and Web Search Engines - Technische Universität Braunschweig, Germany</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/729/">Middleware and Distributed Systems (WS 2009/10) - Dr. Martin von Löwis - HPI</a></li>
+
             </ul>
-            </li>
-            <li><strong>Real-Time Systems</strong><ul>
-                <li><a target="_blank" rel="noreferrer" href="http://faculty.cs.tamu.edu/bettati/Courses/663/Video/presentation.html">CPCS 663 - Real-Time Systems: Video Material - TAMU</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105036/">Real Time Systems - IIT Kharagpur</a></li>
+            
+            <strong>Real-Time Systems</strong>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://faculty.cs.tamu.edu/bettati/Courses/663/Video/presentation.html">CPCS 663 - Real-Time Systems: Video Material - TAMU</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105036/">Real Time Systems - IIT Kharagpur</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/">6.172 Performance Engineering of Software Systems - MIT OCW</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106048/">Performance Evaluation of Computer Systems - IIT Madras</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106108058/">Storage Systems - IISC Bangalore</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.cse.fau.edu/~bob/courses/map6264/">MAP6264 - Queueing Theory - FAU</a>(<a target="_blank" rel="noreferrer" href="https://vimeo.com/album/171324/">Video Lectures</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://web.stanford.edu/class/ee380/">EE 380 Colloquim on Computer Systems - Stanford University</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLoROMvodv4rMWw6rRoeSpkiseTHzWj6vu">Lecture videos</a>)</li>
+
             </ul>
-            </li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/">6.172 Performance Engineering of Software Systems - MIT OCW</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106048/">Performance Evaluation of Computer Systems - IIT Madras</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106108058/">Storage Systems - IISC Bangalore</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://www.cse.fau.edu/~bob/courses/map6264/">MAP6264 - Queueing Theory - FAU</a>(<a target="_blank" rel="noreferrer" href="https://vimeo.com/album/171324/">Video Lectures</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="http://web.stanford.edu/class/ee380/">EE 380 Colloquim on Computer Systems - Stanford University</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLoROMvodv4rMWw6rRoeSpkiseTHzWj6vu">Lecture videos</a>)</li>
-        </ul>
         <hr />
         <h3 id="database-systems">Database Systems</h3>
-        <ul>
-            <li><a target="_blank" rel="noreferrer" href="http://www.cse.psu.edu/~wul2/cmpsc431w/">CMPSC 431W Database Management Systems, Fall 2015 - Penn State University</a> <a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLstRzn3gXZMdXqAiVJ1NN2CoyXHqma7pQ">Lectures - YouTube</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://users.cms.caltech.edu/~donnie/cs121/">CS121 - Introduction to Relational Database Systems, Fall 2016 - Caltech</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLbuogVdPnkCrercQNP9tTsjjPdgRVYvC7">CS 5530 - Database Systems, Spring 2016 - University of Utah</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/1224/">Distributed Data Management (WT 2018/19) - HPI University of Potsdam</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL6hGtHedy2Z4EkgY76QOcueU8lAC4o6c3">MOOC - Database Stanford Dbclass</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLTPQEx-31JXjQYrUKvAjUTWgCYluHGs_L">CSEP 544, Database Management Systems, Au 2015 - University of Washington</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106093/">Database Design - IIT Madras</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104135/">Fundamentals of Database Systems - IIT Kanpur</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLdQddgMBv5zEhlpqdiUcf9aTNEtmESgyl">Principles of Database Management, Bart Baesens</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://itunes.apple.com/us/podcast/fit9003-database-systems-design/id306569364">FIT9003 Database Systems Design - Monash University</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://15445.courses.cs.cmu.edu/fall2018/">15-445 - Introduction to Database Systems, CMU</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXja3hgmuwhf89qboV1kOxMx7">YouTube-2018</a>, <a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjYutVzTeAds8xUt1rcmyT7x">YouTube-2017</a>, <a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi">YouTube-2019</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="http://15721.courses.cs.cmu.edu/spring2017">15-721 - Database Systems, CMU</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjYgTIlqf4Dy9KQpQ7kn1Tl0">YouTube-2017</a>, <a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjbisIGOepfnlbfxeH7TW-8O">YouTube-2016</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXja7K1hjZ01UTVDnGQdx5v5U">15-721 Advanced Database Systems (Spring 2019) - CMU</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://users.cms.caltech.edu/~donnie/cs122/">CS122 - Relational Database System Implementation, Winter 2014-2015 - Caltech</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://sites.google.com/site/cs186spring2015/home/schedule-and-notes">CS 186 - Database Systems, UC Berkeley, Spring 2015</a> (<a target="_blank" rel="noreferrer" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs186-spring2015-berkeley.html">Lectures- InfoCoBuild</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.cs.utah.edu/~lifeifei/cs6530/">CS 6530 - Graduate-level Database Systems, Fall 2016, University of Utah</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLbuogVdPnkCqwHUcieMrytP453Ep0y6eI">Lectures - YouTube</a>)</li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLfciLKR3SgqOxCy1TIXXyfTqKzX2enDjK">6.830/6.814 - Database Systems [Fall 2014]</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://groups.inf.ed.ac.uk/vision/VIDEO/2014/da.htm">Informatics 1 - Data &amp; Analysis 2014/15- University of Edinburgh</a></li>
-            <li><a target="_blank" rel="noreferrer" href="http://aduni.org/courses/databases/index.php?view=cw">Database Management Systems, Aduni</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/resources/res-ll-005-d4m-signal-processing-on-databases-fall-2012/">D4M - Signal Processing on Databases</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://open.hpi.de/courses/imdb2013/items/72j6pftms3dOSunM98JhfW">In-Memory Data Management (2013)Prof. Hasso Plattner - HPI</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/1285/">Distributed Data Management (WT 2019/20) - Dr. Thorsten Papenbrock - HPI</a></li>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.cse.psu.edu/~wul2/cmpsc431w/">CMPSC 431W Database Management Systems, Fall 2015 - Penn State University</a> <a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLstRzn3gXZMdXqAiVJ1NN2CoyXHqma7pQ">Lectures - YouTube</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://users.cms.caltech.edu/~donnie/cs121/">CS121 - Introduction to Relational Database Systems, Fall 2016 - Caltech</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLbuogVdPnkCrercQNP9tTsjjPdgRVYvC7">CS 5530 - Database Systems, Spring 2016 - University of Utah</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/1224/">Distributed Data Management (WT 2018/19) - HPI University of Potsdam</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL6hGtHedy2Z4EkgY76QOcueU8lAC4o6c3">MOOC - Database Stanford Dbclass</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLTPQEx-31JXjQYrUKvAjUTWgCYluHGs_L">CSEP 544, Database Management Systems, Au 2015 - University of Washington</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106093/">Database Design - IIT Madras</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104135/">Fundamentals of Database Systems - IIT Kanpur</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLdQddgMBv5zEhlpqdiUcf9aTNEtmESgyl">Principles of Database Management, Bart Baesens</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://itunes.apple.com/us/podcast/fit9003-database-systems-design/id306569364">FIT9003 Database Systems Design - Monash University</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://15445.courses.cs.cmu.edu/fall2018/">15-445 - Introduction to Database Systems, CMU</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXja3hgmuwhf89qboV1kOxMx7">YouTube-2018</a>, <a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjYutVzTeAds8xUt1rcmyT7x">YouTube-2017</a>, <a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi">YouTube-2019</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://15721.courses.cs.cmu.edu/spring2017">15-721 - Database Systems, CMU</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjYgTIlqf4Dy9KQpQ7kn1Tl0">YouTube-2017</a>, <a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjbisIGOepfnlbfxeH7TW-8O">YouTube-2016</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXja7K1hjZ01UTVDnGQdx5v5U">15-721 Advanced Database Systems (Spring 2019) - CMU</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://users.cms.caltech.edu/~donnie/cs122/">CS122 - Relational Database System Implementation, Winter 2014-2015 - Caltech</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://sites.google.com/site/cs186spring2015/home/schedule-and-notes">CS 186 - Database Systems, UC Berkeley, Spring 2015</a> (<a target="_blank" rel="noreferrer" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs186-spring2015-berkeley.html">Lectures- InfoCoBuild</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.cs.utah.edu/~lifeifei/cs6530/">CS 6530 - Graduate-level Database Systems, Fall 2016, University of Utah</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLbuogVdPnkCqwHUcieMrytP453Ep0y6eI">Lectures - YouTube</a>)</li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLfciLKR3SgqOxCy1TIXXyfTqKzX2enDjK">6.830/6.814 - Database Systems [Fall 2014]</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://groups.inf.ed.ac.uk/vision/VIDEO/2014/da.htm">Informatics 1 - Data &amp; Analysis 2014/15- University of Edinburgh</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://aduni.org/courses/databases/index.php?view=cw">Database Management Systems, Aduni</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/resources/res-ll-005-d4m-signal-processing-on-databases-fall-2012/">D4M - Signal Processing on Databases</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://open.hpi.de/courses/imdb2013/items/72j6pftms3dOSunM98JhfW">In-Memory Data Management (2013)Prof. Hasso Plattner - HPI</a></li>
+            <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/1285/">Distributed Data Management (WT 2019/20) - Dr. Thorsten Papenbrock - HPI</a></li>
+
         </ul>
+            
         <hr />
         <h3 id="software-engineering">Software Engineering</h3>
-        <ul>
-            <li><strong>Object Oriented Design</strong><ul>
-                <li><a target="_blank" rel="noreferrer" href="https://engineering.purdue.edu/OOSD/F2008/F2008.html">ECE 462 Object-Oriented Programming using C++ and Java - Purdue</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://aduni.org/courses/java/index.php?view=cw">Object-oriented Program Design and Software Engineering - Aduni</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL6iDJCG2nkhfNlig8NY5ePPfGvtQX6yLa">OOSE - Object-Oriented Software Engineering, Dr. Tim Lethbridge</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL6XklZATqYx9dj72MKG6wLYjljeB2odra">Object Oriented Systems Analysis and Design (Systems Analysis and Design in a Changing World)</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZ9NgFYEMxp4ZsvD10uXmClGnukcu3Uff">CS 251 - Intermediate Software Design (C++ version) - Vanderbilt University</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO">OOSE - Software Dev Using UML and Java</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105153/">Object-Oriented Analysis and Design - IIT Kharagpur</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/course?list=EC0C5D85DBA20E685C">CS3 - Design in Computing - Richard Buckland UNSW</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://groups.inf.ed.ac.uk/vision/VIDEO/2014/inf1op.htm">Informatics 1 - Object-Oriented Programming 2014/15- University of Edinburgh</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://groups.inf.ed.ac.uk/vision/VIDEO/2015/seoc.htm">Software Engineering with Objects and Components 2015/16- University of Edinburgh</a></li>
+           <strong>Object Oriented Design</strong>
+            <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://engineering.purdue.edu/OOSD/F2008/F2008.html">ECE 462 Object-Oriented Programming using C++ and Java - Purdue</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://aduni.org/courses/java/index.php?view=cw">Object-oriented Program Design and Software Engineering - Aduni</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL6iDJCG2nkhfNlig8NY5ePPfGvtQX6yLa">OOSE - Object-Oriented Software Engineering, Dr. Tim Lethbridge</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL6XklZATqYx9dj72MKG6wLYjljeB2odra">Object Oriented Systems Analysis and Design (Systems Analysis and Design in a Changing World)</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZ9NgFYEMxp4ZsvD10uXmClGnukcu3Uff">CS 251 - Intermediate Software Design (C++ version) - Vanderbilt University</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO">OOSE - Software Dev Using UML and Java</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105153/">Object-Oriented Analysis and Design - IIT Kharagpur</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/course?list=EC0C5D85DBA20E685C">CS3 - Design in Computing - Richard Buckland UNSW</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://groups.inf.ed.ac.uk/vision/VIDEO/2014/inf1op.htm">Informatics 1 - Object-Oriented Programming 2014/15- University of Edinburgh</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://groups.inf.ed.ac.uk/vision/VIDEO/2015/seoc.htm">Software Engineering with Objects and Components 2015/16- University
+
             </ul>
-            </li>
-            <li><strong>Software Engineering</strong><ul>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL-XXv-cvA_iCfQHHS7rxlfHFsU4aQW1IF">Computer Science 169- Software Engineering - Spring 2015 - UCBerkeley</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://www.cs.cornell.edu/courses/cs5150/2014fa/materials.html">CS 5150 -  Software Engineering, Fall 2014 - Cornell University</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLBdajHWwi0JCn87QuFT3e58mekU0-6WUT">Introduction to Service Design and Engineering - University of Trento, Italy</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://cs164.tv/2014/spring/">CS 164 Software Engineering - Harvard</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106108102/">System Analysis and Design - IISC Bangalore</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106101061/">Software Engineering - IIT Bombay</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/1005/">Dependable Systems (SS 2014)- HPI University of Potsdam</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105150/">Software Testing - IIT Kharagpur</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://groups.inf.ed.ac.uk/vision/VIDEO/2014/inf2SE.htm">Informatics 2C - Software Engineering 2014/15- University of Edinburgh</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=jouBM4AH0jw&amp;list=PLjEglKdMOevU2STTGq79duxTXDFuO-k1H&amp;index=2">Software Engineering - Bauhaus-Uni Weimar</a></li>
+            <strong>Software Engineering</strong>
+              <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL-XXv-cvA_iCfQHHS7rxlfHFsU4aQW1IF">Computer Science 169- Software Engineering - Spring 2015 - UCBerkeley</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://www.cs.cornell.edu/courses/cs5150/2014fa/materials.html">CS 5150 -  Software Engineering, Fall 2014 - Cornell University</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLBdajHWwi0JCn87QuFT3e58mekU0-6WUT">Introduction to Service Design and Engineering - University of Trento, Italy</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://cs164.tv/2014/spring/">CS 164 Software Engineering - Harvard</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106108102/">System Analysis and Design - IISC Bangalore</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106101061/">Software Engineering - IIT Bombay</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/1005/">Dependable Systems (SS 2014)- HPI University of Potsdam</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106105150/">Software Testing - IIT Kharagpur</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://groups.inf.ed.ac.uk/vision/VIDEO/2014/inf2SE.htm">Informatics 2C - Software Engineering 2014/15- University of Edinburgh</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=jouBM4AH0jw&amp;list=PLjEglKdMOevU2STTGq79duxTXDFuO-k1H&amp;index=2">Software Engineering - Bauhaus-Uni Weimar</a></li>
+
             </ul>
-            </li>
-            <li><strong>Software Architecture</strong><ul>
-                <li><a target="_blank" rel="noreferrer" href="http://video.bilkent.edu.tr/course_videos.php?courseid=10">CS 411 - Software Architecture Design - Bilkent University</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPkMTetlG7xKWaI5ZAZFX8fL">MOOC - Software Architecture &amp; Design - Udacity</a></li>
+                        
+            <strong>Software Architecture</strong>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://video.bilkent.edu.tr/course_videos.php?courseid=10">CS 411 - Software Architecture Design - Bilkent University</a></li>
+                <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPkMTetlG7xKWaI5ZAZFX8fL">MOOC - Software Architecture &amp; Design - Udacity</a></li>
             </ul>
-            </li>
-            <li><strong>Concurrency</strong><ul>
-                <li><a target="_blank" rel="noreferrer" href="http://cs.brown.edu/courses/cs176/course_information.shtml">CS176 - Multiprocessor Synchronization - Brown University</a> (<a target="_blank" rel="noreferrer" href="http://www.brown.edu/cis/sta/dev/herlihy_csci1760_fa12/#vid">Videos from 2012</a>)</li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZ9NgFYEMxp4KSJPUyaQCj7x--NQ6kvcX">CS 282 (2014): Concurrent Java Network Programming in Android</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep506/11sp/Home.html">CSE P 506 – Concurrency, Spring 2011 - University of Washington</a> (<a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep506/11sp/Videos.html">Videos</a>)</li>
-                <li><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep524/10sp/">CSEP 524 - Parallel Computation - University of Washington</a> (<a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep524/10sp/lectures/video.html">Videos</a>)</li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/977/">Parallel Programming Concepts (WT 2013/14) - HPI University of Potsdam</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/924/">Parallel Programming Concepts (WT 2012/13) - HPI University of Potsdam</a></li>
+
+            <strong>Concurrency</strong>
+             <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://cs.brown.edu/courses/cs176/course_information.shtml">CS176 - Multiprocessor Synchronization - Brown University</a> (<a target="_blank" rel="noreferrer" href="http://www.brown.edu/cis/sta/dev/herlihy_csci1760_fa12/#vid">Videos from 2012</a>)</li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZ9NgFYEMxp4KSJPUyaQCj7x--NQ6kvcX">CS 282 (2014): Concurrent Java Network Programming in Android</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep506/11sp/Home.html">CSE P 506 – Concurrency, Spring 2011 - University of Washington</a> (<a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep506/11sp/Videos.html">Videos</a>)</li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep524/10sp/">CSEP 524 - Parallel Computation - University of Washington</a> (<a target="_blank" rel="noreferrer" href="https://courses.cs.washington.edu/courses/csep524/10sp/lectures/video.html">Videos</a>)</li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/977/">Parallel Programming Concepts (WT 2013/14) - HPI University of Potsdam</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/924/">Parallel Programming Concepts (WT 2012/13) - HPI University of Potsdam</a></li>
+
             </ul>
-            </li>
-            <li><strong>Mobile Application Development</strong><ul>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLkHsKoi6eZnwilGXUc95CqS7Vw4uLLDLG">MOOC Programming Mobile Applications for Android Handheld Systems - University of Maryland</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961">CS 193p - Developing Applications for iOS, Stanford University</a></li>
-                <li><a target="_blank" rel="noreferrer" href="http://cs76.tv/2013/summer/">CS S-76 Building Mobile Applications - Harvard</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZ9NgFYEMxp7lylj-XC8h1kjatOjbh9ne">CS 251 (2015): Intermediate Software Design</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBsvRxJJOzG4r4k_zLKrnxl">Android App Development for Beginners Playlist - thenewboston</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL2F07DBCDCC01493A">Android Application Development Tutorials - thenewboston</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPnMwH5-FNkErnnq_aSy706S">MOOC - Developing Android Apps - Udacity</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPmETCT07vnDSiIaUBuyut0X">MOOC - Advanced Android App Development - Udacity</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLF3EEB647F6B52F03">CSSE490 Android Development Rose-Hulman Winter 2010-2011, Dave Fisher</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL96C635E4DCD393A8">iOS Course, Dave Fisher</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://itunes.apple.com/us/course/developing-ipad-applications/id499050344">Developing iPad Applications for Visualization and Insight - Carnegie Mellon University</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106147/">Mobile Computing - IIT Madras</a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=8EmbrZJwMOI&amp;list=PLjEglKdMOevWv4zPW0diw7iJFdT7s4sTP">Mobile Information Systems - Bauhaus-Uni Weimar</a></li>
+            <strong>Mobile Application Development</strong>
+             <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLkHsKoi6eZnwilGXUc95CqS7Vw4uLLDLG">MOOC Programming Mobile Applications for Android Handheld Systems - University of Maryland</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961">CS 193p - Developing Applications for iOS, Stanford University</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="http://cs76.tv/2013/summer/">CS S-76 Building Mobile Applications - Harvard</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZ9NgFYEMxp7lylj-XC8h1kjatOjbh9ne">CS 251 (2015): Intermediate Software Design</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBsvRxJJOzG4r4k_zLKrnxl">Android App Development for Beginners Playlist - thenewboston</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL2F07DBCDCC01493A">Android Application Development Tutorials - thenewboston</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPnMwH5-FNkErnnq_aSy706S">MOOC - Developing Android Apps - Udacity</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPmETCT07vnDSiIaUBuyut0X">MOOC - Advanced Android App Development - Udacity</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLF3EEB647F6B52F03">CSSE490 Android Development Rose-Hulman Winter 2010-2011, Dave Fisher</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL96C635E4DCD393A8">iOS Course, Dave Fisher</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://itunes.apple.com/us/course/developing-ipad-applications/id499050344">Developing iPad Applications for Visualization and Insight - Carnegie Mellon University</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106106147/">Mobile Computing - IIT Madras</a></li>
+                    <li class="list-group-item"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=8EmbrZJwMOI&amp;list=PLjEglKdMOevWv4zPW0diw7iJFdT7s4sTP">Mobile Information Systems - Bauhaus-Uni Weimar</a></li>
+
             </ul>
-            </li>
-        </ul>
+
         <hr />
         <h3 id="artificial-intelligence">Artificial Intelligence</h3>
         <ul>
