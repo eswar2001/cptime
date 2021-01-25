@@ -11,7 +11,6 @@ html {
   width: 100%;
   background-color: #000;
 }
-
 #content {
   margin: auto;
   text-align: center;
@@ -67,4 +66,16 @@ h3 {
 }
 p {
   color: blanchedalmond;
+}
+.diva{
+    color: black;
+}
+.divb{
+    color: red;
+}
+strong{
+    color: black;
+}
+.darkgrey{
+    background: #90EE90;
 }
