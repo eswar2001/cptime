@@ -122,7 +122,10 @@ export const CuratedList = () => {
         <blockquote>
             <p>Awesome websites with great tutorials.</p>
         </blockquote>
-        <table className=" table table-dark table-bordered table-hover " style={{ overflowX: "auto" }}>
+        <table className=" table table-dark table-bordered table-hover " style={{
+            fontSize: 'smaller',
+            width: '100%'
+        }}>
             <thead>
                 <tr>
                     <th>☆</th>
@@ -207,7 +210,7 @@ export const CuratedList = () => {
         <blockquote>
             <p>Consider beginning your competitive programming journey with these awesome courses!</p>
         </blockquote>
-        <table className=" table table-dark table-bordered table-hover " style={{ overflowX: "auto" }}>
+        <table className=" table table-dark table-bordered table-hover " >
             <thead>
                 <tr>
                     <th>☆</th>
@@ -254,7 +257,10 @@ export const CuratedList = () => {
             </tbody>
         </table>
         <h3 id="open-courses-for-algorithms-and-data-structures">Open Courses for Algorithms and Data Structures</h3>
-        <table className=" table table-dark table-bordered table-hover " style={{ overflowX: "auto" }}>
+        <table className=" table table-dark table-bordered table-hover " style={{
+            fontSize: 'smaller',
+            width: '100%'
+        }}>
             <thead>
                 <tr>
                     <th>☆</th>
@@ -796,7 +802,10 @@ export const CuratedList = () => {
             <p>Awesome tools that will make your life easier.</p>
         </blockquote>
         <h3 id="ides">IDEs</h3>
-        <table className=" table table-dark table-bordered table-hover " style={{ overflowX: "auto" }}>
+        <table className=" table table-dark table-bordered table-hover " style={{
+            fontSize: 'smaller',
+            width: '100%'
+        }}>
             <thead>
                 <tr>
                     <th>☆</th>

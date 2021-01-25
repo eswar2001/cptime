@@ -6,27 +6,27 @@ export const Videoresources = () => {
         <hr />
         <h2 id="table-of-contents">Table of Contents</h2>
         <ul>
-            <li><a target="_blank" rel="noreferrer" href="#introduction-to-computer-science">Introduction to Computer Science</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#data-structures-and-algorithms">Data Structures and Algorithms</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#systems-programming">Systems Programming</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#database-systems">Database Systems</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#software-engineering">Software Engineering</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#artificial-intelligence">Artificial Intelligence</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#machine-learning">Machine Learning</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#web-programming-and-internet-technologies">Web Programming and Internet Technologies</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#computer-networks">Computer Networks</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#math-for-computer-scientist">Math for Computer Scientist</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#theoretical-cs-and-programming-languages">Theoretical CS and Programming Languages</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#embedded-systems">Embedded Systems</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#computer-organization-and-architecture">Computer Organization and Architecture</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#security">Security</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#computer-graphics">Computer Graphics</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#image-processing-and-computer-vision">Image Processing and Computer Vision</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#computational-biology">Computational Biology</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#quantum-computing">Quantum Computing</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#robotics">Robotics</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#computational-finance">Computational Finance</a></li>
-            <li><a target="_blank" rel="noreferrer" href="#misc">Misc</a></li>
+            <li><a href="#introduction-to-computer-science">Introduction to Computer Science</a></li>
+            <li><a href="#data-structures-and-algorithms">Data Structures and Algorithms</a></li>
+            <li><a href="#systems-programming">Systems Programming</a></li>
+            <li><a href="#database-systems">Database Systems</a></li>
+            <li><a href="#software-engineering">Software Engineering</a></li>
+            <li><a href="#artificial-intelligence">Artificial Intelligence</a></li>
+            <li><a href="#machine-learning">Machine Learning</a></li>
+            <li><a href="#web-programming-and-internet-technologies">Web Programming and Internet Technologies</a></li>
+            <li><a href="#computer-networks">Computer Networks</a></li>
+            <li><a href="#math-for-computer-scientist">Math for Computer Scientist</a></li>
+            <li><a href="#theoretical-cs-and-programming-languages">Theoretical CS and Programming Languages</a></li>
+            <li><a href="#embedded-systems">Embedded Systems</a></li>
+            <li><a href="#computer-organization-and-architecture">Computer Organization and Architecture</a></li>
+            <li><a href="#security">Security</a></li>
+            <li><a href="#computer-graphics">Computer Graphics</a></li>
+            <li><a href="#image-processing-and-computer-vision">Image Processing and Computer Vision</a></li>
+            <li><a href="#computational-biology">Computational Biology</a></li>
+            <li><a href="#quantum-computing">Quantum Computing</a></li>
+            <li><a href="#robotics">Robotics</a></li>
+            <li><a href="#computational-finance">Computational Finance</a></li>
+            <li><a href="#misc">Misc</a></li>
         </ul>
         <h2 id="courses">Courses</h2>
         <h3 id="introduction-to-computer-science">Introduction to Computer Science</h3>

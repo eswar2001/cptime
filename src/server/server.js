@@ -5,13 +5,15 @@ var uatcoder = [],
     ucodeforces = [],
     uhackerearth = [],
     ukaggle = [],
-    uleetcode = [];
+    uleetcode = [],
+    utopcoder = [];
 var oatcoder = [],
     ocodechef = [],
     ocodeforces = [],
     ohackerearth = [],
     okaggle = [],
-    oleetcode = [];
+    oleetcode = [],
+    otopcoder = [];
 let upcoming;
 let ongoing;
 export const getData = () => {
@@ -38,6 +40,9 @@ export const getData = () => {
                 } else if (upcoming[i].platform === "codechef") {
                     ucodechef.push(upcoming[i]);
                 }
+                else if (upcoming[i].platform === "topcoder") {
+                    utopcoder.push(upcoming[i]);
+                }
             }
             for (let i in ongoing) {
                 if (ongoing[i].platform === "codeforces") {
@@ -52,6 +57,8 @@ export const getData = () => {
                     okaggle.push(ongoing[i]);
                 } else if (ongoing[i].platform === "codechef") {
                     ocodechef.push(ongoing[i]);
+                } else if (ongoing[i].platform === "topcoder") {
+                    otopcoder.push(ongoing[i]);
                 }
             }
         })
@@ -72,6 +79,8 @@ export const getData = () => {
                     ukaggle.push(upcoming[i]);
                 } else if (upcoming[i].platform === "codechef") {
                     ucodechef.push(upcoming[i]);
+                } else if (upcoming[i].platform === "topcoder") {
+                    utopcoder.push(upcoming[i]);
                 }
             }
             for (let i in ongoing) {
@@ -87,6 +96,8 @@ export const getData = () => {
                     okaggle.push(ongoing[i]);
                 } else if (ongoing[i].platform === "codechef") {
                     ocodechef.push(ongoing[i]);
+                } else if (ongoing[i].platform === "topcoder") {
+                    otopcoder.push(ongoing[i]);
                 }
             }
         })
@@ -105,4 +116,6 @@ export {
     ohackerearth,
     okaggle,
     oleetcode,
+    otopcoder,
+    utopcoder
 };
