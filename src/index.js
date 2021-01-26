@@ -17,7 +17,6 @@ import { Footer } from './components/footer';
 import { Videoresources } from "./views/videoResources";
 import { Interviews } from "./views/interviews";
 import { ScalableSoftwareArc } from "./views/SoftwareArc";
-import { Container, Button } from 'react-floating-action-button'
 import { Feedback } from "./components/feedback";
 import Topcoder from './views/topcoder';
 import { Allresources } from "./views/allresources";
@@ -42,28 +41,14 @@ const Home = () => {
               fontWeight: "bolder"
             }}>CpTime</h1>
             <h4>A place where you find everything about Competitive Coding</h4>
-            <Footer />
+            <Footer /><br />
+            <a href="https://www.buymeacoffee.com/eswar"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=eswar&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
           </div>
           <div className="col-md-2  col-sm-0"></div>
         </div>
       </div>
 
     </>
-  )
-}
-export const FAB = () => {
-  return (
-    <Container>
-      <Button
-        tooltip="Star Repo & follow"
-        icon="fa fa-heart"
-        styles={{ backgroundColor: "blue" }}
-        rotate={true}
-        onClick={() => {
-          window.location.assign('http://github.com/eswar2001');
-        }}
-      />
-    </Container>
   )
 }
 ReactDOM.render(

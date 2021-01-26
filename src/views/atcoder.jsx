@@ -8,7 +8,12 @@ const Atcoder = () => {
         return (<>
             <div className="container" >
                 <h3>About:</h3>
-                <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational</p>
+                <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational.There are three types of official contests in AtCoder:</p>
+                <ul>
+                        <li> AtCoder Grand Contest (AGC). This is our best contest. The problems will have high originality and require interesting observations.</li>
+                        <li>      AtCoder Regular Contest (ARC). The problems may be a bit typical compared to AGC problems, but still we think most of you can enjoy them and they are good for practice.</li>
+                        <li>    AtCoder Beginner Contest (ABC). This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational.</li>
+                    </ul>
                 <h3>Ongoing Contests</h3>
                 <div className="card-group"> {oatcoder.map((uData) => {
                     return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
@@ -28,8 +33,13 @@ const Atcoder = () => {
         return (<>
             <div className="container" >
                 <h3>About:</h3>
-                <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational</p>
-
+                <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational.There are three types of official contests in AtCoder:
+                </p>
+                <ul>
+                    <li> AtCoder Grand Contest (AGC). This is our best contest. The problems will have high originality and require interesting observations.</li>
+                    <li>      AtCoder Regular Contest (ARC). The problems may be a bit typical compared to AGC problems, but still we think most of you can enjoy them and they are good for practice.</li>
+                    <li>    AtCoder Beginner Contest (ABC). This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational.</li>
+                </ul>
                 <h3>Ongoing Contests</h3>
                 <div className="card-group"> {oatcoder.map((uData) => {
                     return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
@@ -41,8 +51,13 @@ const Atcoder = () => {
         return (<>
             <div className="container" >
                 <h3>About:</h3>
-                <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational</p>
-                <h3>upcoming Contests</h3>
+                <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational.There are three types of official contests in AtCoder:
+                   
+                </p> <ul>
+                        <li> AtCoder Grand Contest (AGC). This is our best contest. The problems will have high originality and require interesting observations.</li>
+                        <li>      AtCoder Regular Contest (ARC). The problems may be a bit typical compared to AGC problems, but still we think most of you can enjoy them and they are good for practice.</li>
+                        <li>    AtCoder Beginner Contest (ABC). This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational.</li>
+                    </ul><h3>upcoming Contests</h3>
                 <div className="card-group">{uatcoder.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
