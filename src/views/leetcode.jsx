@@ -8,7 +8,7 @@ function Leetcode() {
 
     if (oleetcode.length !== 0 && uleetcode.length !== 0) {
         return (<>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>About</h3>
                 <p>It's a website where people–mostly software engineers–practice their coding skills. There are 800+ questions (and growing), each with multiple solutions. Questions are ranked by level of difficulty: easy, medium, and hard.</p>
 
@@ -18,7 +18,7 @@ function Leetcode() {
                         endTime={uData.endTime} url={uData.url} />)
                 })}</div>
             </div>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>upcoming Contests</h3>
                 <div className="card-group">{uleetcode.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
@@ -29,7 +29,7 @@ function Leetcode() {
     }
     else if (oleetcode.length !== 0) {
         return (<>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>About</h3>
                 <p>It's a website where people–mostly software engineers–practice their coding skills. There are 800+ questions (and growing), each with multiple solutions. Questions are ranked by level of difficulty: easy, medium, and hard.</p>
 
@@ -42,7 +42,7 @@ function Leetcode() {
         </>);
     } else if (uleetcode.length !== 0) {
         return (<>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>About</h3>
                 <p>It's a website where people–mostly software engineers–practice their coding skills. There are 800+ questions (and growing), each with multiple solutions. Questions are ranked by level of difficulty: easy, medium, and hard.</p>
 

@@ -8,7 +8,7 @@ function Hackerearth(params) {
 
     if (ohackerearth.length !== 0 && uhackerearth.length !== 0) {
         return (<>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>About</h3>
                 <p>HackerEarth provides enterprise software that helps organisations with their technical hiring needs. HackerEarth is used by organizations for technical skill assessment and remote video interviewing. In addition to that HackerEarth also has a community and since inception built a base of 4M+ developers.</p>
                 <h3>Ongoing Contests</h3>
@@ -17,7 +17,7 @@ function Hackerearth(params) {
                         endTime={uData.endTime} url={uData.url} />)
                 })}</div>
             </div>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>upcoming Contests</h3>
                 <div className="card-group">{uhackerearth.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
@@ -28,7 +28,7 @@ function Hackerearth(params) {
     }
     else if (ohackerearth.length !== 0) {
         return (<>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>About</h3>
                 <p>HackerEarth provides enterprise software that helps organisations with their technical hiring needs. HackerEarth is used by organizations for technical skill assessment and remote video interviewing. In addition to that HackerEarth also has a community and since inception built a base of 4M+ developers.</p>
 
@@ -41,7 +41,7 @@ function Hackerearth(params) {
         </>);
     } else if (uhackerearth.length !== 0) {
         return (<>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>About</h3>
                 <p>HackerEarth provides enterprise software that helps organisations with their technical hiring needs. HackerEarth is used by organizations for technical skill assessment and remote video interviewing. In addition to that HackerEarth also has a community and since inception built a base of 4M+ developers.</p>
 

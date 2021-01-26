@@ -1,5 +1,6 @@
 
 import fetch from "node-fetch";
+import AOS from "aos";
 var uatcoder = [],
     ucodechef = [],
     ucodeforces = [],
@@ -16,6 +17,7 @@ var oatcoder = [],
     otopcoder = [];
 let upcoming;
 let ongoing;
+AOS.init({ easing: 'ease-in' })
 export const getData = () => {
     const url = process.env.React_App_RESTAPI_URL;
     fetch(url, {

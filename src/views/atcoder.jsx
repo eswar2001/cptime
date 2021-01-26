@@ -2,11 +2,11 @@ import { oatcoder, uatcoder } from "../server/server";
 import { Redirect } from 'react-router';
 import React from 'react';
 import Card from "../components/card";
-
 const Atcoder = () => {
+   
     if (oatcoder.length !== 0 && uatcoder.length !== 0) {
         return (<>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>About:</h3>
                 <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational.There are three types of official contests in AtCoder:</p>
                 <ul>
@@ -20,7 +20,7 @@ const Atcoder = () => {
                         endTime={uData.endTime} url={uData.url} />)
                 })}</div>
             </div>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>upcoming Contests</h3>
                 <div className="card-group">{uatcoder.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
@@ -31,7 +31,7 @@ const Atcoder = () => {
     }
     else if (oatcoder.length !== 0) {
         return (<>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>About:</h3>
                 <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational.There are three types of official contests in AtCoder:
                 </p>
@@ -49,7 +49,7 @@ const Atcoder = () => {
         </>);
     } else if (uatcoder.length !== 0) {
         return (<>
-            <div className="container" >
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
                 <h3>About:</h3>
                 <p>AtCoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational.There are three types of official contests in AtCoder:
                    
