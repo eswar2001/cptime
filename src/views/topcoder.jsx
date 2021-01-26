@@ -9,7 +9,7 @@ const Topcoder = () => {
         return (<>
             <div className="container" >
                 <h3>About:</h3>
-                <p>Topcoder</p>
+                <p>Topcoder (formerly TopCoder) is a crowdsourcing company with an open global community of designers, developers, data scientists, and competitive programmers. Topcoder pays community members for their work on the projects and sells community services to corporate, mid-size, and small-business clients.</p>
                 <h3>Ongoing Contests</h3>
                 <div className="card-group"> {otopcoder.map((uData) => {
                     return (<Card status={0} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
@@ -29,7 +29,7 @@ const Topcoder = () => {
         return (<>
             <div className="container" >
                 <h3>About:</h3>
-                <p>Topcoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational</p>
+                <p>Topcoder (formerly TopCoder) is a crowdsourcing company with an open global community of designers, developers, data scientists, and competitive programmers. Topcoder pays community members for their work on the projects and sells community services to corporate, mid-size, and small-business clients.</p>
 
                 <h3>Ongoing Contests</h3>
                 <div className="card-group"> {otopcoder.map((uData) => {
@@ -42,9 +42,7 @@ const Topcoder = () => {
         return (<>
             <div className="container" >
                 <h3>About:</h3>
-                <p>Topcoder is a programming contest website based in Japan. ... This is mainly targeted for those who are new to competitive programming. The problems will be easy and educational</p>
-                <h3>upcoming Contests</h3>
-                <div className="card-group">{utopcoder.map((uData) => {
+                <p>Topcoder (formerly TopCoder) is a crowdsourcing company with an open global community of designers, developers, data scientists, and competitive programmers. Topcoder pays community members for their work on the projects and sells community services to corporate, mid-size, and small-business clients.</p><div className="card-group">{utopcoder.map((uData) => {
                     return (<Card status={1} key={uData.name} name={uData.name} platform={uData.platform} startTime={uData.startTime}
                         endTime={uData.endTime} url={uData.url} />)
                 })}</div>
