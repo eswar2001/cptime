@@ -17,7 +17,6 @@ function Card(props) {
         filter = `upcoming  col-sm-auto col-md-6 col-lg-4`;
         diff = "card mb-3 border-primary";
     }
-    console.log(google_calendar)
     var cardStyle = {
         minWidth: "20rem",
         minHeight: "18rem"
