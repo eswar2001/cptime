@@ -1,5 +1,3 @@
-import React from 'react'
-
 const darkTheme = {
   color: {
     'h1': "#bb86fc",
@@ -57,7 +55,7 @@ h1 {
   a,
   #menu,
   td,
-  .navigation button[aria\-expanded="true"],
+  .navigation button[aria-expanded="true"],
   iframe,
   li,
   .list-group-item {
