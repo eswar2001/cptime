@@ -17,15 +17,15 @@ export const Navbar = () => {
             }} className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto justify-content-center" >
                     <li className="nav-item"><Link data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/">Home</Link></li>
-                    <li className="nav-item "><Link data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Topcoder">Topcoder</Link></li>
-                    <li className="nav-item"><Link data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Atcoder">Atcoder</Link></li>
-                    <li className="nav-item"><Link data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Codechef">Codechef</Link></li>
-                    <li className="nav-item"><Link data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Codeforces">Codeforces</Link></li>
-                    <li className="nav-item" ><Link data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Hackerearth">Hackerearth</Link></li>
-                    <li className="nav-item "><Link data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Leetcode">Leetcode</Link></li>
-                    <li className="nav-item "><Link data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Kaggle">Kaggle</Link></li>
-                    <li className="nav-item "><Link data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Allresources">Resources</Link></li>
-                    <li className="nav-item "><Link data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/feedback">Feedback</Link></li>
+                    <li className="nav-item "><Link type="button" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Topcoder">Topcoder</Link></li>
+                    <li className="nav-item"><Link type="button" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Atcoder">Atcoder</Link></li>
+                    <li className="nav-item"><Link type="button" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Codechef">Codechef</Link></li>
+                    <li className="nav-item"><Link type="button" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Codeforces">Codeforces</Link></li>
+                    <li className="nav-item" ><Link type="button" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Hackerearth">Hackerearth</Link></li>
+                    <li className="nav-item "><Link type="button" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Leetcode">Leetcode</Link></li>
+                    <li className="nav-item "><Link type="button" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Kaggle">Kaggle</Link></li>
+                    <li className="nav-item "><Link type="button" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/Allresources">Resources</Link></li>
+                    <li className="nav-item "><Link type="button" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" to="/feedback">Feedback</Link></li>
                 </ul>
             </div>
         </nav>

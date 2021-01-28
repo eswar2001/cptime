@@ -21,7 +21,6 @@ import { ScalableSoftwareArc } from "./views/SoftwareArc";
 import { Feedback } from "./components/feedback";
 import Topcoder from './views/topcoder';
 import { Allresources } from "./views/allresources";
-import AOS from 'aos';
 getData()
 const Home = () => {
   return (

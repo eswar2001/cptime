@@ -4,7 +4,6 @@ import React from 'react';
 import Card from "../components/card";
 
 const Topcoder = () => {
-    console.log(utopcoder)
     if (otopcoder.length !== 0 && utopcoder.length !== 0) {
         return (<>
             <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
