@@ -89,9 +89,8 @@ h1 {
   
   button,
   .btn {
-    background:${currentTheme.backGround['button']} !important;
+    background:${currentTheme.backGround['button']};
   }
-  
   .card {
     background:${currentTheme.backGround['card']} !important;
   }
