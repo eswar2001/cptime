@@ -4,12 +4,29 @@
   margin: 0;
 }
 
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
 body,
 html {
   font-family: "Open Sans", sans-serif;
   height: 100%;
   width: 100%;
-  background-color: #000;
 }
 
 #content {
@@ -19,52 +36,24 @@ html {
 .lottie-player {
   margin: auto;
 }
-h1 {
-  color: blanchedalmond;
-}
-.card-header {
-  color: #66f;
-}
-.body {
-  background-color: lavender;
-}
 .card-group {
   display: flex;
 }
 .card {
   max-width: 18rem;
-  background: #121212;
 }
 .card-text {
   font-size: small;
 }
-a {
-  /* font-weight: bold; */
-  color: #fff;
-}
-
 @media (max-width: 768px) {
   h1 {
     text-transform: capitalize;
-    color: #fff;
     font-weight: 500;
   }
 }
 .centered {
-  color: #000;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-button,
-.btn {
-  background: #66f;
-  color: blanchedalmond;
-}
-h3 {
-  color: blanchedalmond;
-}
-p {
-  color: blanchedalmond;
 }

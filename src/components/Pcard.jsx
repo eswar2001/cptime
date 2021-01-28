@@ -2841,7 +2841,7 @@ export const Plistview = () => {
         return (<>
             <div class="container table-responsive py-5">
                 <h1>Lets Solve some Questions on {dataSent.topicName}</h1>
-                <table className=" table table-dark table-bordered table-hover ">
+                <table className=" table table-bordered table-hover ">
                     <thead >
                         <tr>
                             <th scope="col"><h3>Question</h3></th>
@@ -2851,7 +2851,7 @@ export const Plistview = () => {
                     <tbody>
                         {dataSent.questions.map((item) => {
                             return (<tr id={item.Problem}>
-                                <td style={{ color: "white" }}>{item.Problem}</td>
+                                <td >{item.Problem}</td>
                                 <td><a rel="noreferrer" target='_blank' href={item.URL}>Solve the problem</a></td>
                             </tr>)
                         })}

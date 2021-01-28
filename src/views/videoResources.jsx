@@ -1,9 +1,8 @@
 import React from 'react'
 export const Videoresources = () => {
     return (<div className="container">
-        <h2 id="computer-science-courses-with-video-lectures">Computer Science courses with video lectures</h2>
-        <p><strong>Introduction</strong></p>
-        <hr />
+        <h1 style={{ textAlign: 'center' }}>Computer Science courses with video lectures</h1>
+
         <h2 id="table-of-contents">Table of Contents</h2>
         <ul>
             <li><a href="#introduction-to-computer-science">Introduction to Computer Science</a></li>
@@ -28,8 +27,8 @@ export const Videoresources = () => {
             <li><a href="#computational-finance">Computational Finance</a></li>
             <li><a href="#misc">Misc</a></li>
         </ul>
-        <h2 id="courses">Courses</h2>
-        <h3 id="introduction-to-computer-science">Introduction to Computer Science</h3>
+        <h1 id="courses">Courses</h1>
+        <h4 id="introduction-to-computer-science">Introduction to Computer Science</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs10-spring2015-berkeley.html">CS 10 - The Beauty and Joy of Computing - Spring 2015 - Dan Garcia - UC Berkeley InfoCoBuild</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/">6.0001 - Introduction to Computer Science and Programming in Python - MIT OCW</a></li>
@@ -58,8 +57,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C">Modern C++ Course (2018) - Bonn University</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLgnQpQtFTOGRM59sr3nSL8BmeMZR9GCIA">Modern C++ (Lecture &amp; Tutorials, 2020, Vizzo &amp; Stachniss) - University of Bonn</a></li>
         </ul>
-        <hr />
-        <h3 id="data-structures-and-algorithms">Data Structures and Algorithms</h3>
+
+        <h4 id="data-structures-and-algorithms">Data Structures and Algorithms</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/">6.006 - Introduction to Algorithms, MIT OCW</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLXFMmlk03Dt7Q0xr1PIAriY5623cKiH7V">Algorithms: Design and Analysis 1 - Stanford University</a></li>
@@ -108,8 +107,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106104120/">Parallel Algorithm - IIT Kanpur</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/106108054/">Graph Theory - IISC Bangalore</a></li>
         </ul>
-        <hr />
-        <h3 id="systems-programming">Systems Programming</h3>
+
+        <h4 id="systems-programming">Systems Programming</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&amp;maxResults=150">15-213 Introduction to Computer Systems, Fall 2015  - CMU</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.cs.uic.edu/CS361fall13">CS361 - COMPUTER SYSTEMS - UIC</a></li>
@@ -159,8 +158,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="http://www.cse.fau.edu/~bob/courses/map6264/">MAP6264 - Queueing Theory - FAU</a>(<a target="_blank" rel="noreferrer" href="https://vimeo.com/album/171324/">Video Lectures</a>)</li>
             <li><a target="_blank" rel="noreferrer" href="http://web.stanford.edu/class/ee380/">EE 380 Colloquim on Computer Systems - Stanford University</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLoROMvodv4rMWw6rRoeSpkiseTHzWj6vu">Lecture videos</a>)</li>
         </ul>
-        <hr />
-        <h3 id="database-systems">Database Systems</h3>
+
+        <h4 id="database-systems">Database Systems</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="http://www.cse.psu.edu/~wul2/cmpsc431w/">CMPSC 431W Database Management Systems, Fall 2015 - Penn State University</a> <a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLstRzn3gXZMdXqAiVJ1NN2CoyXHqma7pQ">Lectures - YouTube</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://users.cms.caltech.edu/~donnie/cs121/">CS121 - Introduction to Relational Database Systems, Fall 2016 - Caltech</a></li>
@@ -185,8 +184,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://open.hpi.de/courses/imdb2013/items/72j6pftms3dOSunM98JhfW">In-Memory Data Management (2013)Prof. Hasso Plattner - HPI</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/1285/">Distributed Data Management (WT 2019/20) - Dr. Thorsten Papenbrock - HPI</a></li>
         </ul>
-        <hr />
-        <h3 id="software-engineering">Software Engineering</h3>
+
+        <h4 id="software-engineering">Software Engineering</h4>
         <ul>
             <li><strong>Object Oriented Design</strong><ul>
                 <li><a target="_blank" rel="noreferrer" href="https://engineering.purdue.edu/OOSD/F2008/F2008.html">ECE 462 Object-Oriented Programming using C++ and Java - Purdue</a></li>
@@ -245,8 +244,8 @@ export const Videoresources = () => {
             </ul>
             </li>
         </ul>
-        <hr />
-        <h3 id="artificial-intelligence">Artificial Intelligence</h3>
+
+        <h4 id="artificial-intelligence">Artificial Intelligence</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs188-spring2015-berkeley.html">CS 188 - Introduction to Artificial Intelligence, UC Berkeley - Spring 2015</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/">6.034 Artificial Intelligence, MIT OCW</a></li>
@@ -270,8 +269,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLoOmvuyo5UAeihlKcWpzVzB51rr014TwD">Semantic Web Technologies by Dr. Harald Sack - HPI</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLoOmvuyo5UAcBXlhTti7kzetSsi1PpJGR">Knowledge Engineering with Semantic Web Technologies by Dr. Harald Sack - HPI</a></li>
         </ul>
-        <hr />
-        <h3 id="machine-learning">Machine Learning</h3>
+
+        <h4 id="machine-learning">Machine Learning</h4>
         <ul>
             <li><strong>Introduction to Machine Learning</strong><ul>
                 <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN">MOOC Machine Learning Andrew Ng - Coursera/Stanford</a> (<a target="_blank" rel="noreferrer" href="http://www.holehouse.org/mlclass/">Notes</a>)</li>
@@ -474,8 +473,8 @@ export const Videoresources = () => {
             </ul>
             </li>
         </ul>
-        <hr />
-        <h3 id="computer-networks">Computer Networks</h3>
+
+        <h4 id="computer-networks">Computer Networks</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="http://www.ini740.com/">14-740 - Fundamentals of Computer Networks - CMU</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://www.scs.stanford.edu/10au-cs144/">CS 144 Introduction to Computer Networking - Stanford University, Fall 2013</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z">Lecture videos</a>)</li>
@@ -501,8 +500,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLoOmvuyo5UAfY5VrkObHTckZHwPsS1VCA">Internetworking with TCP/IP by Prof. Dr. Christoph Meinel - HPI</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLFB088DB91845CA34">CS798: Mathematical Foundations of Computer Networking - University of Waterloo</a></li>
         </ul>
-        <hr />
-        <h3 id="math-for-computer-scientist">Math for Computer Scientist</h3>
+
+        <h4 id="math-for-computer-scientist">Math for Computer Scientist</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="https://github.com/Developer-Y/math-science-video-lectures">List of Science &amp; Math courses with video lectures</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.khanacademy.org/math/">Maths courses all topics covered</a></li>
@@ -564,8 +563,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLd-PuDzW85AcSgNGnT5TUHt85SrCljT3V">Statistical Computing, Fall 2017 - Notre Dame</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL05umP7R6ij1a6KdEy8PVE9zoCv6SlHRS">Mathematics for Machine Learning, Lectures by Ulrike von Luxburg - Tübingen Machine Learning</a></li>
         </ul>
-        <hr />
-        <h3 id="web-programming-and-internet-technologies">Web Programming and Internet Technologies</h3>
+
+        <h4 id="web-programming-and-internet-technologies">Web Programming and Internet Technologies</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="http://live.wdd.io/">Web Design Decal - HTML/CSS/JavaScript Course, University of California, Berkeley</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://cs75.tv/2012/summer/">CS 75 Building Dynamic Websites - Harvard University</a></li>
@@ -581,8 +580,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPlLXUhUNt1wINWrrH9axjcI">MOOC - Web Development - Udacity</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://open.hpi.de/courses/webtech2015/items/4oqxq6euKfhXgHOMwFBxbn">Web Technologies Prof. Dr. Christoph Meinel - HPI</a></li>
         </ul>
-        <hr />
-        <h3 id="theoretical-cs-and-programming-languages">Theoretical CS and Programming Languages</h3>
+
+        <h4 id="theoretical-cs-and-programming-languages">Theoretical CS and Programming Languages</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="https://archive.org/details/academictorrents_e31e54905c7b2669c81fe164de2859be4697013a">MOOC - Compilers - Stanford University</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://sites.google.com/a/bodik.org/cs164/home">CS 164 Hack your language, UC Berkeley</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL3A16CFC42CA6EF4F">Lectures - Youtube</a>)</li>
@@ -632,8 +631,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLm3J0oaFux3YypJNaF6sRAf2zC1QzMuTA">Analysis of Boolean Functions at CMU</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://ais.informatik.uni-freiburg.de/teaching/ss15/bridging/">Theoretical Computer Science (Bridging Course)(Tutorial) - SS 2015</a></li>
         </ul>
-        <hr />
-        <h3 id="embedded-systems">Embedded Systems</h3>
+
+        <h4 id="embedded-systems">Embedded Systems</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="http://users.ece.utexas.edu/~valvano/Volume1/E-Book/VideoLinks.htm">EE319K Embedded Systems - UT Austin</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLyg2vmIzGxXGBxFu8nvX3KBadSdsNAvbA">EE445L Embedded Systems Design Lab, Fall 2015, UTexas</a></li>
@@ -662,8 +661,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/108/108/108108123/">NOC:Advanced IOT Applications - IISc Bangalore</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/108/108/108108098/">NOC:Design for internet of things - IISc Bangalore</a></li>
         </ul>
-        <hr />
-        <h3 id="computer-organization-and-architecture">Computer Organization and Architecture</h3>
+
+        <h4 id="computer-organization-and-architecture">Computer Organization and Architecture</h4>
         <ul>
             <li><strong>Computer Organization</strong><ul>
                 <li><a target="_blank" rel="noreferrer" href="http://aduni.org/courses/hcw/index.php?view=cw">How Computers Work - Aduni</a></li>
@@ -716,8 +715,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL5Q2soXY2Zi_gntM55VoMlKlw7YrXOhbl">Onur Mutlu @ TU Wien 2019 - Memory Systems</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL5Q2soXY2Zi-IymxXpH_9vlZCOeA7Yfn9">Memory Systems Course - Technion, Summer 2018</a></li>
         </ul>
-        <hr />
-        <h3 id="security">Security</h3>
+
+        <h4 id="security">Security</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="https://www.tele-task.de/series/1227/">Internet Security (WT 2018/19) - HPI University of Potsdam</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/">6.858 Computer Systems Security - MIT OCW</a></li>
@@ -749,8 +748,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://asecuritysite.com/CSN11128">CSN11128 - Incident Response and Malware Analysus - Bill Buchanan - Edinburgh Napier</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLoOmvuyo5UAdsi-IacgZJQF1MRw0Ee-HH">Internet Security for Beginners by Dr. Christoph Meinel - HPI</a></li>
         </ul>
-        <hr />
-        <h3 id="computer-graphics">Computer Graphics</h3>
+
+        <h4 id="computer-graphics">Computer Graphics</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html">CS184 - Computer Graphics, Fall 2012 - UC Berkeley</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://itunes.apple.com/us/itunes-u/computer-graphics-fall-2009/id457893733?mt=10">ECS 175 - Computer Graphics, Fall 2009 - UC Davis</a></li>
@@ -771,8 +770,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="http://graphics.stanford.edu/courses/cs468-13-spring/schedule.html">CS 468 - Differential Geometry for Computer Science - Stanford University</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL_deCdukpyu1rdH85XsEEREbpoqEauiJl">Lecture videos</a>)</li>
             <li><a target="_blank" rel="noreferrer" href="http://15462.courses.cs.cmu.edu/fall2020/">CMU 15-462/662: Computer Graphics</a></li>
         </ul>
-        <hr />
-        <h3 id="image-processing-and-computer-vision">Image Processing and Computer Vision</h3>
+
+        <h4 id="image-processing-and-computer-vision">Image Processing and Computer Vision</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A79y1StvUUqgyL-O0fZh2rs">MOOC - Digital Image procesing - Duke/Coursera</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://www.klewel.com/conferences/epfl-computer-vision/">Computer Vision 2011 - EPFL, Switzerland</a></li>
@@ -807,8 +806,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://www.ipb.uni-bonn.de/photo1-2020/">Photogrammetry 1 Course – 2020 - University of Bonn</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.ipb.uni-bonn.de/photo2-2020/">Photogrammetry II Course 2020/21 - University of Bonn</a></li>
         </ul>
-        <hr />
-        <h3 id="computational-biology">Computational Biology</h3>
+
+        <h4 id="computational-biology">Computational Biology</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="http://web.cs.ucdavis.edu/~gusfield/cs124videos/videolist.html">ECS 124 - Foundations of Algorithms for Bioinformatics - Dan Gusfield, UC Davis</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL_w_qWAQZtAbh8bHfzXYpdnVKCGCDmmoL">YouTube</a>)</li>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLA48145CC64FE7990">CSE549 - Computational Biology - Steven Skiena - 2010 SBU</a></li>
@@ -830,8 +829,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/102/106/102106068/">NOC:Computational Systems Biology - IIT Madras</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://nptel.ac.in/courses/102/106/102106065/">NOC:BioInformatics:Algorithms and Applications - IIT Madras</a></li>
         </ul>
-        <hr />
-        <h3 id="quantum-computing">Quantum Computing</h3>
+
+        <h4 id="quantum-computing">Quantum Computing</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="https://www.cs.cmu.edu/~odonnell/quantum18/">15-859BB: Quantum Computation and Quantum Information 2018 - CMU</a> (<a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz">Youtube</a>)</li>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL_onPhFCkVQi2O405SkNf3hv-7HXnZnMm">Quantum Mechanics for Scientists and Engineers</a></li>
@@ -842,8 +841,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://ocw.tudelft.nl/courses/building-blocks-quantum-computer-part-2/">The Building Blocks of a Quantum Computer: Part 2 - TU Delft</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://ocw.tudelft.nl/courses/quantum-cryptography/">Quantum Cryptography - TU Delft</a></li>
         </ul>
-        <hr />
-        <h3 id="robotics">Robotics</h3>
+
+        <h4 id="robotics">Robotics</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="https://see.stanford.edu/Course/CS223A">CS 223A - Introduction to Robotics, Stanford University</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/">6.832 Underactuated Robotics - MIT OCW</a></li>
@@ -886,8 +885,8 @@ export const Videoresources = () => {
             <li><a target="_blank" rel="noreferrer" href="https://www.ipb.uni-bonn.de/msr1-2020/">Mobile Sensing and Robotics 1 – Part Stachniss (Jointly taught with PhoRS) - University of Bonn</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://www.ipb.uni-bonn.de/msr2-2020/">Mobile Sensing and Robotics 2 – Stachniss &amp; Klingbeil/Holst - University of Bonn</a></li>
         </ul>
-        <hr />
-        <h3 id="computational-finance">Computational Finance</h3>
+
+        <h4 id="computational-finance">Computational Finance</h4>
         <ul>
             <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/playlist?list=PL9E205B8FAAD530E1">COMP510 - Computational Finance - Steven Skiena - 2007 HKUST</a></li>
             <li><a target="_blank" rel="noreferrer" href="http://academictorrents.com/details/dfc1ddde962101f00ef9764b91181bd6bb5c9e93">MOOC - Mathematical Methods for Quantitative Finance, University of Washington/Coursera)</a></li>
@@ -905,8 +904,8 @@ Pricing Theory I / Applied Probability for Mathematical Finance - University of 
                 </ul>
             </li>
         </ul>
-        <hr />
-        <h3 id="misc">Misc</h3>
+
+        <h4 id="misc">Misc</h4>
         <ul>
             <li><strong>HCI</strong><ul>
                 <li><a target="_blank" rel="noreferrer" href="https://hci.stanford.edu/courses/cs147/2015/au/calendar.php">CS147 - Introduction to Human-Computer Interaction Design - Stanford</a></li>
@@ -956,6 +955,6 @@ Pricing Theory I / Applied Probability for Mathematical Finance - University of 
             </ul>
             </li>
         </ul>
-        <hr />
+
     </div>)
 }

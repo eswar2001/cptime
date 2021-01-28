@@ -1,0 +1,7 @@
+* {
+  text-transform: capitalize !important;
+}
+html {
+  --scrollbarBG: #cfd8dc;
+  --thumbBG: #90a4ae;
+}

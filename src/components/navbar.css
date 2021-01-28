@@ -51,9 +51,6 @@
     transition: 0.5s ease-in-out transform, 0.2s 0.4s ease-in-out opacity;
   }
 
-  .navigation button[aria\-expanded="true"] {
-    color: #fff;
-  }
 
   .navigation button[aria\-expanded="true"]::before {
     opacity: 1;
@@ -87,7 +84,6 @@
   #menu a {
     text-decoration: none;
     font-weight: bold;
-    color: #fff;
     opacity: 0;
     display: block;
     -webkit-transform: translateY(-10px);

@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import './values/values.css'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Atcoder from "./views/atcoder";
 import Codechef from "./views/codechef";
@@ -106,7 +107,6 @@ ReactDOM.render(
           <Home />
         </Route>
       </Switch>
-      {/* <FAB /> */}
     </Router>
   </>,
   document.getElementById("root")

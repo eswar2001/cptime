@@ -1,9 +1,5 @@
-* {
-  color: blanchedalmond;
-}
 h2 {
   text-align: center;
-  color: #66f;
 }
 @media screen and (max-width: 600px) {
   .container {

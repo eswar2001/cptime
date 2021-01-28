@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './allresources.css'
 export const Allresources = () => {
     return (<div className="container">
         <div>

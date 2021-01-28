@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import './navbar.css';
+import { Toggle } from '../values/values'
 export const Navbar = () => {
     return (<>
         <nav className="navbar navbar-expand-lg" style={{ justifyItems: "right" }}>
-            <Link className="navbar-brand" to="/" >
+            <div onClick={() => { Toggle(); }} className="navbar-brand">
                 <h4 >Cp<span>Time</span></h4>
-            </Link>
+            </div>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i className="fas fa-bars"></i>
             </button>
