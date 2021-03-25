@@ -53,7 +53,12 @@ function Codechef(params) {
             </div>
         </>);
     } else {
-        return (<Redirect to='/' />)
+        return (<>
+            <div className="container" data-aos-duration="4000" data-aos-offset="10" data-aos="fade-right" >
+                <center> <h3>Contests</h3></center>
+                <center> <a className="btn" href="https://www.codechef.com/event-calendar" target="_Blank">CodeChef Calander</a></center>
+            </div>
+        </>)
     }
 }
 
