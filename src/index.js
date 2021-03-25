@@ -41,7 +41,7 @@ const Home = () => {
             }}>CpTime</h1>
             <h4>A place where you find everything about Competitive Coding</h4>
             <Footer /><br />
-            <a href="https://www.buymeacoffee.com/eswar"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=eswar&button_colour=66f&font_colour=FFEBCD&font_family=Cookie&outline_colour=000&coffee_colour=964B00" /></a>
+            {/* <a href="https://www.buymeacoffee.com/eswar"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=eswar&button_colour=66f&font_colour=FFEBCD&font_family=Cookie&outline_colour=000&coffee_colour=964B00" /></a> */}
           </div>
           <div className="col-md-2  col-sm-0"></div>
         </div>
